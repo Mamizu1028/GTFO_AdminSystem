@@ -3,13 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hikaria.AdminSystem", "Hikaria.AdminSystem.csproj", "{D71758C1-2F74-4CD5-8C51-7BED2AABC1FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hikaria.AdminSystem", "Hikaria.AdminSystem\Hikaria.AdminSystem.csproj", "{D71758C1-2F74-4CD5-8C51-7BED2AABC1FA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 		Dependencies.props = Dependencies.props
 		GameFolder.props = GameFolder.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Localization", "Localization", "{DCD8AD67-81E4-43EF-B00C-9C4576CE74F1}"
+	ProjectSection(SolutionItems) = preProject
+		Localization\_Hikaria.AdminSystem_ModuleLocalization.json = Localization\_Hikaria.AdminSystem_ModuleLocalization.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Settings", "Settings", "{EE7CC031-4868-4C80-AF0F-682A74E8C54C}"
+	ProjectSection(SolutionItems) = preProject
+		Settings\EnemyIDNameLookup.json = Settings\EnemyIDNameLookup.json
 	EndProjectSection
 EndProject
 Global
