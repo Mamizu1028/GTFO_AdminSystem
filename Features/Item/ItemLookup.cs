@@ -147,7 +147,8 @@ namespace Hikaria.AdminSystem.Features.Item
                 originLayer = localPlayer.CourseNode.LayerType
             };
             data.originCourseNode.Set(localPlayer.CourseNode);
-            ItemReplicationManager.SpawnItem(data, DelegateSupport.ConvertDelegate<ItemReplicationManager.delItemCallback>(new Action<ISyncedItem, PlayerAgent>((item, player) => {
+            ItemReplicationManager.SpawnItem(data, DelegateSupport.ConvertDelegate<ItemReplicationManager.delItemCallback>(new Action<ISyncedItem, PlayerAgent>((item, player) =>
+            {
                 var itemInLevel = item.TryCast<ItemInLevel>();
                 if (itemInLevel == null)
                     return;
@@ -193,7 +194,8 @@ namespace Hikaria.AdminSystem.Features.Item
                 originLayer = localPlayer.CourseNode.LayerType
             };
             data.originCourseNode.Set(localPlayer.CourseNode);
-            ItemReplicationManager.SpawnItem(data, DelegateSupport.ConvertDelegate<ItemReplicationManager.delItemCallback>(new Action<ISyncedItem, PlayerAgent>((item, player) => {
+            ItemReplicationManager.SpawnItem(data, DelegateSupport.ConvertDelegate<ItemReplicationManager.delItemCallback>(new Action<ISyncedItem, PlayerAgent>((item, player) =>
+            {
                 var itemInLevel = item.TryCast<ItemInLevel>();
                 if (itemInLevel == null)
                     return;

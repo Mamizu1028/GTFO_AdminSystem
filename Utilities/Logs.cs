@@ -5,32 +5,32 @@ using TheArchive.Loader;
 namespace Hikaria.AdminSystem.Utility
 {
     internal static class Logs
-	{
+    {
         private static IArchiveLogger _logger;
         private static IArchiveLogger Logger => _logger ??= LoaderWrapper.CreateLoggerInstance(PluginInfo.GUID);
 
         public static void LogDebug(object data)
-		{
+        {
             Logger.Debug(data.ToString());
-		}
+        }
 
-		public static void LogError(object data)
-		{
+        public static void LogError(object data)
+        {
             Logger.Error(data.ToString());
         }
 
-		public static void LogInfo(object data)
-		{
+        public static void LogInfo(object data)
+        {
             Logger.Info(data.ToString());
         }
 
-		public static void LogMessage(object data)
-		{
+        public static void LogMessage(object data)
+        {
             Logger.Msg(ConsoleColor.White, data.ToString());
         }
 
-		public static void LogWarning(object data)
-		{
+        public static void LogWarning(object data)
+        {
             Logger.Warning(data.ToString());
         }
 

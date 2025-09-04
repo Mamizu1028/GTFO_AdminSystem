@@ -20,7 +20,7 @@ namespace Hikaria.AdminSystem.Features.Develop
         {
             LoaderWrapper.ClassInjector.RegisterTypeInIl2Cpp<UnityMainThreadDispatcher>();
             GameObject obj = new("Hikaria.AdminSystem.ScriptsHolder");
-            Object.DontDestroyOnLoad(obj);
+            GameObject.DontDestroyOnLoad(obj);
             obj.AddComponent<UnityMainThreadDispatcher>();
         }
     }

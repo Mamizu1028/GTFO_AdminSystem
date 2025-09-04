@@ -60,7 +60,7 @@ namespace Hikaria.AdminSystem.Features.Enemy
             {
                 ConsoleLogs.LogToConsole($"未找到名称为 {name} 的 EnemyDataBlock");
                 return;
-            } 
+            }
             UnityMainThreadDispatcher.Enqueue(SpawnEnemyCoroutine(block.persistentID, count, mode));
         }
 

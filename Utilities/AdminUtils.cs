@@ -23,7 +23,7 @@ namespace Hikaria.AdminSystem.Utility
         {
             get
             {
-                if (_localPlayerAgent == null)
+                if (_localPlayerAgent == null || !_localPlayerAgent)
                     _localPlayerAgent = PlayerManager.GetLocalPlayerAgent()?.TryCast<LocalPlayerAgent>();
                 return _localPlayerAgent;
             }

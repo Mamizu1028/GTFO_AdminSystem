@@ -72,7 +72,7 @@ public class EntryPoint : IArchiveModule
         public static FeatureGroup ModuleGroup => FeatureGroups.GetOrCreateModuleGroup("Admin System", new()
         {
             { Language.Chinese, "管理系统" }, { Language.English, "Admin System" }
-        }); 
+        });
 
         public static FeatureGroup Item => ModuleGroup.GetOrCreateSubGroup("Item");
 

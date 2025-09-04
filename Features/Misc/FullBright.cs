@@ -29,10 +29,7 @@ public class FullBright : Feature
         [FSDisplayName("强度")]
         public float Intensity
         {
-            get
-            {
-                return _intensity;
-            }
+            get => _intensity;
             set
             {
                 _intensity = value;
@@ -124,7 +121,7 @@ public class FullBright : Feature
 
     private static bool _enabled;
 
-    [ArchivePatch(typeof(LocalPlayerAgent), nameof(LocalPlayerAgent.Setup))] 
+    [ArchivePatch(typeof(LocalPlayerAgent), nameof(LocalPlayerAgent.Setup))]
     private class LocalPlayerAgent__Setup__Patch
     {
         private static void Postfix(LocalPlayerAgent __instance)
