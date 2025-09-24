@@ -20,7 +20,7 @@ internal class SuperBioTracker : Feature
 {
     public override string Name => "超级生物扫描仪";
 
-    public override FeatureGroup Group => EntryPoint.Groups.Misc;
+    public override TheArchive.Core.FeaturesAPI.Groups.GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Misc");
 
     [FeatureConfig]
     public static SuperBioTrackerSetting Settings { get; set; }
@@ -96,7 +96,7 @@ internal class SuperBioTracker : Feature
                 {
                     if (__instance.m_showingNoTargetsTimer <= 0f)
                     {
-                        __instance.m_screen.SetNoTargetsText(Localization.Get(1));
+                        __instance.m_screen.SetNoTargetsText(Localization.GetById(1));
                         __instance.m_showingNoTargetsTimer = Clock.Time + 1f;
                         __instance.Sound.Post(EVENTS.BIOTRACKER_NO_MOVING_TARGET_FOUND, true);
                         return;
@@ -108,7 +108,7 @@ internal class SuperBioTracker : Feature
                     {
                         __instance.m_tagStartTime = Clock.Time;
                         __instance.Sound.Post(EVENTS.BIOTRACKER_TAGGING_CHARGE_LOOP, true);
-                        __instance.m_screen.SetStatusText(Localization.Get(2));
+                        __instance.m_screen.SetStatusText(Localization.GetById(2));
                         __instance.m_tagging = true;
                         __instance.m_recharging = false;
                         return;
@@ -130,7 +130,7 @@ internal class SuperBioTracker : Feature
                         }
                     }
                     __instance.m_screen.SetGuixColor(Color.red);
-                    __instance.m_screen.SetStatusText(Localization.Get(3));
+                    __instance.m_screen.SetStatusText(Localization.GetById(3));
                     __instance.m_tagging = false;
                     __instance.m_recharging = true;
                     __instance.m_rechargeStartTime = Clock.Time;
@@ -150,7 +150,7 @@ internal class SuperBioTracker : Feature
                 __instance.m_recharging = false;
                 __instance.Sound.Post(EVENTS.BIOTRACKER_RECHARGED, true);
                 __instance.m_screen.ResetGuixColor();
-                __instance.m_screen.SetStatusText(Localization.Get(4));
+                __instance.m_screen.SetStatusText(Localization.GetById(4));
                 return;
             }
             else if (__instance.m_progressBar.Progress > 0f)

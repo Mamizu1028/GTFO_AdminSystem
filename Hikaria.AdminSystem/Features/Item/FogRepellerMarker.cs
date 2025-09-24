@@ -8,6 +8,7 @@ using TheArchive.Core.Attributes.Feature.Members;
 using TheArchive.Core.Attributes.Feature.Patches;
 using TheArchive.Core.Attributes.Feature.Settings;
 using TheArchive.Core.FeaturesAPI;
+using TheArchive.Core.FeaturesAPI.Groups;
 using TheArchive.Core.Localization;
 using TheArchive.Utilities;
 using UnityEngine;
@@ -18,11 +19,11 @@ namespace Hikaria.AdminSystem.Features.Item
     {
         public override string Name => "驱雾器标记";
 
-        public override FeatureGroup Group => EntryPoint.Groups.Item;
+        public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Item");
 
         public override bool SkipInitialOnEnable => true;
 
-        public override Type[] LocalizationExternalTypes => new Type[]
+        public override Type[] ExternalLocalizedTypes => new Type[]
         {
             typeof(eFogRepellerSphereState)
         };
@@ -148,17 +149,17 @@ namespace Hikaria.AdminSystem.Features.Item
 
                     if (Settings.ShowName)
                     {
-                        sb.AppendLine(Localization.Get(1));
+                        sb.AppendLine(Localization.GetById(1));
                     }
 
                     if (Settings.ShowState)
                     {
-                        sb.AppendLine($"{Localization.Get(2)}: {Localization.Get(sphere.CurrentState)}");
+                        sb.AppendLine($"{Localization.GetById(2)}: {Localization.Get(sphere.CurrentState)}");
                     }
 
                     if (Settings.ShowStateTimer)
                     {
-                        sb.AppendLine($"{Localization.Get(3)}: {timer:F0}s");
+                        sb.AppendLine($"{Localization.GetById(3)}: {timer:F0}s");
                     }
 
                     sb.Append("</b></color>");

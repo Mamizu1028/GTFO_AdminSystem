@@ -27,7 +27,7 @@ namespace Hikaria.AdminSystem.Features.Visual
     {
         public override string Name => "敌人寻迹可视化";
 
-        public override FeatureGroup Group => EntryPoint.Groups.Visual;
+        public override TheArchive.Core.FeaturesAPI.Groups.GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Visual");
 
         [FeatureConfig]
         public static EnemyPathVisualizerSettings Settings { get; set; }

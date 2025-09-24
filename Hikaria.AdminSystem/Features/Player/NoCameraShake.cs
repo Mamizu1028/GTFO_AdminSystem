@@ -5,6 +5,7 @@ using TheArchive.Core.Attributes.Feature.Members;
 using TheArchive.Core.Attributes.Feature.Patches;
 using TheArchive.Core.Attributes.Feature.Settings;
 using TheArchive.Core.FeaturesAPI;
+using TheArchive.Core.FeaturesAPI.Groups;
 using UnityEngine;
 
 namespace Hikaria.AdminSystem.Features.Player
@@ -16,7 +17,7 @@ namespace Hikaria.AdminSystem.Features.Player
 
         public override string Description => "禁用受到伤害时视角抖动";
 
-        public override FeatureGroup Group => EntryPoint.Groups.Player;
+        public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Player");
 
         [FeatureConfig]
         public static NoCameraShakeSettings Settings { get; set; }

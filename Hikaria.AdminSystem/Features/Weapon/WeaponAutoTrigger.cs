@@ -24,7 +24,7 @@ namespace Hikaria.AdminSystem.Features.Weapon
 
         public override string Description => "使用枪械时启用自动扳机\n<color=red>本功能与自动瞄准冲突</color>";
 
-        public override FeatureGroup Group => EntryPoint.Groups.Weapon;
+        public override TheArchive.Core.FeaturesAPI.Groups.GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Weapon");
 
         [FeatureConfig]
         public static WeaponAutoTriggerSettings Settings { get; set; }
@@ -49,12 +49,12 @@ namespace Hikaria.AdminSystem.Features.Weapon
             {
                 get
                 {
-                    return EnemyDamageDataHelper.ArmorMultiThreshold;
+                    return EnemyDataHelper.ArmorMultiThreshold;
                 }
                 set
                 {
-                    EnemyDamageDataHelper.ArmorMultiThreshold = value;
-                    EnemyDamageDataHelper.ClearGeneratedEnemyDamageData();
+                    EnemyDataHelper.ArmorMultiThreshold = value;
+                    EnemyDataHelper.ClearGeneratedEnemyDamageData();
                 }
             }
 
@@ -254,7 +254,7 @@ namespace Hikaria.AdminSystem.Features.Weapon
                 if (!targetEnemy.Alive)
                     return;
 
-                var damageData = EnemyDamageDataHelper.GetOrGenerateEnemyDamageData(targetEnemy);
+                var damageData = EnemyDataHelper.GetOrGenerateEnemyDamageData(targetEnemy);
                 if (damageData.IsImmortal)
                     return;
 

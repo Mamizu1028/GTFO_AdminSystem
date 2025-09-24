@@ -14,12 +14,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Localization", "Localization", "{DCD8AD67-81E4-43EF-B00C-9C4576CE74F1}"
 	ProjectSection(SolutionItems) = preProject
-		Localization\_Hikaria.AdminSystem_ModuleLocalization.json = Localization\_Hikaria.AdminSystem_ModuleLocalization.json
+		Localization\Feature_BioScanVisualizer_Localization.json = Localization\Feature_BioScanVisualizer_Localization.json
+		Localization\Feature_EnemyMarker_Localization.json = Localization\Feature_EnemyMarker_Localization.json
+		Localization\Feature_FogRepellerMarker_Localization.json = Localization\Feature_FogRepellerMarker_Localization.json
+		Localization\Feature_PauseGame_Localization.json = Localization\Feature_PauseGame_Localization.json
+		Localization\Feature_SuperBioTracker_Localization.json = Localization\Feature_SuperBioTracker_Localization.json
+		Localization\Feature_WeaponAutoAim_Localization.json = Localization\Feature_WeaponAutoAim_Localization.json
+		Localization\Feature_WeaponAutoTrigger_Localization.json = Localization\Feature_WeaponAutoTrigger_Localization.json
+		Localization\Module_Hikaria.AdminSystem_Localization.json = Localization\Module_Hikaria.AdminSystem_Localization.json
+		Localization\Module_Hikaria.AdminSystem_QC_Localization.json = Localization\Module_Hikaria.AdminSystem_QC_Localization.json
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Settings", "Settings", "{EE7CC031-4868-4C80-AF0F-682A74E8C54C}"
 	ProjectSection(SolutionItems) = preProject
 		Settings\EnemyIDNameLookup.json = Settings\EnemyIDNameLookup.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Definitions", "Definitions", "{CEC19C60-CFBE-40BB-83E8-B8DB5F35EE42}"
+	ProjectSection(SolutionItems) = preProject
+		Definitions\Module_Hikaria.AdminSystem_Group_Definition.json = Definitions\Module_Hikaria.AdminSystem_Group_Definition.json
 	EndProjectSection
 EndProject
 Global

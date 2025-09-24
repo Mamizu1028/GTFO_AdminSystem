@@ -7,6 +7,7 @@ using Player;
 using TheArchive.Core.Attributes.Feature;
 using TheArchive.Core.Attributes.Feature.Patches;
 using TheArchive.Core.FeaturesAPI;
+using TheArchive.Core.FeaturesAPI.Groups;
 using TheArchive.Loader;
 using UnityEngine;
 
@@ -21,7 +22,7 @@ namespace Hikaria.AdminSystem.Features.Player
 
         public override string Description => "启用后可飞天遁地";
 
-        public override FeatureGroup Group => EntryPoint.Groups.Player;
+        public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Player");
 
         public override void Init()
         {
@@ -29,7 +30,6 @@ namespace Hikaria.AdminSystem.Features.Player
         }
 
         private static bool _enableNoClip;
-        private static bool _enableFreeCam;
 
         [Command("NoClip", "穿墙模式")]
         private static void ToggleNoClip()

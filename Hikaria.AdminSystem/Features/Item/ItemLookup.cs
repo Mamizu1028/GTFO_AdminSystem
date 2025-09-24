@@ -13,6 +13,7 @@ using System.Text;
 using TheArchive.Core.Attributes.Feature;
 using TheArchive.Core.Attributes.Feature.Patches;
 using TheArchive.Core.FeaturesAPI;
+using TheArchive.Core.FeaturesAPI.Groups;
 using UnityEngine;
 
 namespace Hikaria.AdminSystem.Features.Item
@@ -25,7 +26,7 @@ namespace Hikaria.AdminSystem.Features.Item
     {
         public override string Name => "物品";
 
-        public override FeatureGroup Group => EntryPoint.Groups.Item;
+        public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Item");
 
         public static Dictionary<string, ItemInLevel> ItemsInLevel { get; set; } = new();
 

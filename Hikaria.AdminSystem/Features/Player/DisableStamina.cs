@@ -4,6 +4,7 @@ using TheArchive.Core.Attributes.Feature.Members;
 using TheArchive.Core.Attributes.Feature.Patches;
 using TheArchive.Core.Attributes.Feature.Settings;
 using TheArchive.Core.FeaturesAPI;
+using TheArchive.Core.FeaturesAPI.Groups;
 
 namespace Hikaria.AdminSystem.Features.Player
 {
@@ -16,7 +17,7 @@ namespace Hikaria.AdminSystem.Features.Player
 
         public override string Description => "启用以禁用心率系统";
 
-        public override FeatureGroup Group => EntryPoint.Groups.Player;
+        public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Player");
 
         [FeatureConfig]
         public static DisableStaminaSettings Settings { get; set; }

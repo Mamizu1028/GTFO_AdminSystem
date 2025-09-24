@@ -2,7 +2,6 @@
 using AIGraph;
 using Enemies;
 using Globals;
-using Hikaria.AdminSystem.Extensions;
 using Hikaria.AdminSystem.Managers;
 using Hikaria.AdminSystem.Suggestion.Suggestors.Attributes;
 using Hikaria.AdminSystem.Suggestions.Suggestors.Attributes;
@@ -13,12 +12,8 @@ using Hikaria.QC;
 using LevelGeneration;
 using Player;
 using SNetwork;
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using TheArchive.Core.Attributes;
 using TheArchive.Core.Attributes.Feature;
 using TheArchive.Core.FeaturesAPI;
 using UnityEngine;
@@ -34,8 +29,19 @@ namespace Hikaria.AdminSystem.Features.Misc
 
         public override string Description => "杂项指令";
 
-        public override FeatureGroup Group => EntryPoint.Groups.Misc;
+        public override TheArchive.Core.FeaturesAPI.Groups.GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Misc");
 
+        [Command("LeaveSessionHub")]
+        private static void LeaveSessionHub()
+        {
+            SNet.SessionHub.LeaveHub();
+        }
+
+        [Command("WhoIsMaster")]
+        private static string WhoIsMaster => SNet.Master?.NickName ?? string.Empty;
+
+        [Command("IsMaster")]
+        private static bool IsMaster => SNet.IsMaster;
 
         [Command("WantToSay")]
         private static void WantToSay(int playerID, uint eventID, uint inDialogID = 0, uint startDialogID = 0, uint subtitleId = 0)
@@ -253,21 +259,6 @@ namespace Hikaria.AdminSystem.Features.Misc
             ConsoleLogs.LogToConsole("重生点已保存");
         }
 
-        //[Command("ChangeLookup", "修改识别码")]
-        //private static void ChangeLookup(int slot)
-        //{
-        //    if (AdminUtils.TryGetPlayerAgentBySlotIndex(slot, out var _localPlayer))
-        //    {
-        //        SNet.LocalPlayer.Lookup = _localPlayer.Owner.Lookup;
-        //    }
-        //}
-
-        //[Command("RestoreLookup", "恢复识别码")]
-        //private static void RestoreLookup()
-        //{
-        //    SNet.LocalPlayer.Lookup = Steamworks.SteamUser.GetSteamID().m_SteamID;
-        //}
-
         private enum EnemyChoiceType
         {
             Awake = 0,
@@ -375,9 +366,9 @@ namespace Hikaria.AdminSystem.Features.Misc
         private static void ListEnemyData()
         {
             ConsoleLogs.LogToConsole("----------------------------------------------------------------");
-            foreach (uint id in EnemyDamageDataHelper.EnemyDataBlockLookup.Keys)
+            foreach (uint id in EnemyDataHelper.EnemyDataBlockLookup.Keys)
             {
-                ConsoleLogs.LogToConsole($"[{id}] {EnemyDamageDataHelper.EnemyDataBlockLookup[id].name}");
+                ConsoleLogs.LogToConsole($"[{id}] {EnemyDataHelper.EnemyDataBlockLookup[id].name}");
             }
             ConsoleLogs.LogToConsole("----------------------------------------------------------------");
         }
@@ -847,8 +838,17 @@ namespace Hikaria.AdminSystem.Features.Misc
         }
 
         [Command("GiveHealth", "给予玩家生命值")]
-        private static void GiveHealth([PlayerSlotIndex] int slot, [CommandParameterDescription("数量")] float amount = 100f)
+        private static void GiveHealth([PlayerSlotIndex] int slot = 0, [CommandParameterDescription("数量")] float amount = 100f)
         {
+            if (slot == 0)
+            {
+                foreach (var p in PlayerManager.PlayerAgentsInLevel)
+                {
+                    p.GiveHealth(AdminUtils.LocalPlayerAgent, 1f);
+                    ConsoleLogs.LogToConsole($"{p.PlayerName} 已补充生命值");
+                }
+                return;
+            }
             if (!AdminUtils.TryGetPlayerAgentBySlotIndex(slot, out var playerAgent))
             {
                 ConsoleLogs.LogToConsole($"不存在slot为 {slot} 的玩家", LogLevel.Error);
@@ -860,8 +860,17 @@ namespace Hikaria.AdminSystem.Features.Misc
         }
 
         [Command("GiveAmmo", "给予玩家武器弹药")]
-        private static void GiveAmmo([PlayerSlotIndex] int slot, [CommandParameterDescription("数量")] float amount = 100f)
+        private static void GiveAmmo([PlayerSlotIndex] int slot = 0, [CommandParameterDescription("数量")] float amount = 100f)
         {
+            if (slot == 0)
+            {
+                foreach (var p in PlayerManager.PlayerAgentsInLevel)
+                {
+                    p.GiveAmmoRel(AdminUtils.LocalPlayerAgent, 1f, 1f, 0f);
+                    ConsoleLogs.LogToConsole($"{p.PlayerName} 已补充武器弹药");
+                }
+                return;
+            }
             if (!AdminUtils.TryGetPlayerAgentBySlotIndex(slot, out var playerAgent))
             {
                 ConsoleLogs.LogToConsole("输入有误", LogLevel.Error);
@@ -873,8 +882,19 @@ namespace Hikaria.AdminSystem.Features.Misc
         }
 
         [Command("GiveDisinfection", "给予玩家消毒")]
-        private static void GiveDisinfection([PlayerSlotIndex] int slot, [CommandParameterDescription("数量")] float amount = 100f)
+        private static void GiveDisinfection([PlayerSlotIndex] int slot = 0, [CommandParameterDescription("数量")] float amount = 100f)
         {
+            if (slot == 0)
+            {
+                foreach (var p in PlayerManager.PlayerAgentsInLevel)
+                {
+                    if (p.Damage.Infection > 0f)
+                        p.GiveDisinfection(AdminUtils.LocalPlayerAgent, 1f);
+
+                    ConsoleLogs.LogToConsole($"{p.PlayerName} 已完全消毒");
+                }
+                return;
+            }
             if (!AdminUtils.TryGetPlayerAgentBySlotIndex(slot, out var playerAgent))
             {
                 ConsoleLogs.LogToConsole("输入有误", LogLevel.Error);
@@ -886,8 +906,25 @@ namespace Hikaria.AdminSystem.Features.Misc
         }
 
         [Command("GiveTool", "给予玩家工具弹药")]
-        private static void GiveTool([PlayerSlotIndex] int slot, [CommandParameterDescription("数量")] float amount = 100f)
+        private static void GiveTool([PlayerSlotIndex] int slot = 0, [CommandParameterDescription("数量")] float amount = 100f)
         {
+            if (slot == 0)
+            {
+                foreach (var p in PlayerManager.PlayerAgentsInLevel)
+                {
+                    p.GiveAmmoRel(AdminUtils.LocalPlayerAgent, 0f, 0f, 1f);
+
+                    foreach (var sg in GameObject.FindObjectsOfType<SentryGunInstance>())
+                    {
+                        if (sg.Owner?.GlobalID == p.GlobalID)
+                        {
+                            sg.GiveAmmoRel(AdminUtils.LocalPlayerAgent, 1f, 1f, 1f);
+                        }
+                    }
+                    ConsoleLogs.LogToConsole($"{p.PlayerName} 已补充工具弹药");
+                }
+                return;
+            }
             if (!AdminUtils.TryGetPlayerAgentBySlotIndex(slot, out var playerAgent))
             {
                 ConsoleLogs.LogToConsole("输入有误", LogLevel.Error);
@@ -908,8 +945,28 @@ namespace Hikaria.AdminSystem.Features.Misc
         }
 
         [Command("GiveResources", "给予玩家资源")]
-        private static void GiveResources([PlayerSlotIndex] int slot)
+        private static void GiveResources([PlayerSlotIndex] int slot = 0)
         {
+            if (slot == 0)
+            {
+                foreach (var p in PlayerManager.PlayerAgentsInLevel)
+                {
+                    p.GiveAmmoRel(AdminUtils.LocalPlayerAgent, 1f, 1f, 1f);
+                    p.GiveHealth(AdminUtils.LocalPlayerAgent, 1f);
+                    if (p.Damage.Infection > 0f)
+                        p.GiveDisinfection(AdminUtils.LocalPlayerAgent, 1f);
+
+                    foreach (var sg in GameObject.FindObjectsOfType<SentryGunInstance>())
+                    {
+                        if (sg.Owner?.GlobalID == p.GlobalID)
+                        {
+                            sg.GiveAmmoRel(AdminUtils.LocalPlayerAgent, 1f, 1f, 1f);
+                        }
+                    }
+                    ConsoleLogs.LogToConsole($"{p.PlayerName} 已补充资源");
+                }
+                return;
+            }
             if (!AdminUtils.TryGetPlayerAgentBySlotIndex(slot, out var playerAgent))
             {
                 ConsoleLogs.LogToConsole("输入有误", LogLevel.Error);
@@ -930,54 +987,6 @@ namespace Hikaria.AdminSystem.Features.Misc
             }
             ConsoleLogs.LogToConsole($"{playerAgent.PlayerName} 已补充资源");
         }
-
-        [Command("GiveResourcesAll", "给予所有玩家资源")]
-        private static void GiveResourcesAll()
-        {
-            foreach (var playerAgent in PlayerManager.PlayerAgentsInLevel)
-            {
-                playerAgent.GiveAmmoRel(AdminUtils.LocalPlayerAgent, 1f, 1f, 1f);
-                playerAgent.GiveHealth(AdminUtils.LocalPlayerAgent, 1f);
-                if (playerAgent.Damage.Infection > 0f)
-                    playerAgent.GiveDisinfection(AdminUtils.LocalPlayerAgent, 1f);
-
-                var sentryGuns = GameObject.FindObjectsOfType<SentryGunInstance>();
-                foreach (var sg in sentryGuns)
-                {
-                    if (sg.Owner?.GlobalID == playerAgent.GlobalID)
-                    {
-                        sg.GiveAmmoRel(AdminUtils.LocalPlayerAgent, 1f, 1f, 1f);
-                    }
-                }
-                ConsoleLogs.LogToConsole($"{playerAgent.PlayerName} 已补充资源");
-            }
-        }
-
-        //没写好，可能无法实现
-        //private static void ForceInvitePlayer(ulong lookup)
-        //{
-        //    if (!SNet.IsInLobby)
-        //    {
-        //        ConsoleLogs.LogToConsole("不在大厅内", LogLevel.Error);
-        //        return;
-        //    }
-        //    if (!SNet.Core.TryGetPlayer(lookup, out var _localPlayer, true))
-        //    {
-        //        ConsoleLogs.LogToConsole($"不存在玩家 {lookup}", LogLevel.Error);
-        //        return;
-        //    }
-        //    pForceJoinLobby forceJoinLobbyData = new() { lobbyID = SNet.Lobby.Identifier.ID };
-        //    SNet.SessionHub.m_forceJoinLobby.Send(forceJoinLobbyData, SNet_ChannelType.SessionOrderCritical, _localPlayer);
-        //    pWhoIsMasterAnswer whoIsMasterAnswerData = new pWhoIsMasterAnswer
-        //    {
-        //        lobbyId = SNet.Lobby.Identifier.ID,
-        //        sessionKey = SNet.SessionHub.SessionID
-        //    };
-        //    SNet.MasterManagement.m_whoIsMasterAnswerPacket.Send(whoIsMasterAnswerData, SNet_ChannelType.SessionOrderCritical, _localPlayer);
-        //    SNet.Lobby.TryCast<SNet_Lobby_STEAM>().PlayerJoined(_localPlayer, new() { m_SteamID = _localPlayer.Lookup });
-        //    ConsoleLogs.LogToConsole($"已强制邀请玩家: {_localPlayer.NickName}");
-        //}
-
 
         [Command("LightsSynced", "设置同步灯光")]
         private static void SetLightsEnabledSync(bool enable)
@@ -1110,6 +1119,6 @@ namespace Hikaria.AdminSystem.Features.Misc
         }
 
         [Command("FastElevator")]
-        public static bool FastElevator { get => Global.FastElevator; set => Global.FastElevator = value; }
+        private static bool FastElevator { get => Global.FastElevator; set => Global.FastElevator = value; }
     }
 }

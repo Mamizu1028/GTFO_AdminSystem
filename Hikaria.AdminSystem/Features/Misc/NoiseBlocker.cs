@@ -2,6 +2,7 @@
 using Player;
 using TheArchive.Core.Attributes.Feature.Patches;
 using TheArchive.Core.FeaturesAPI;
+using TheArchive.Core.FeaturesAPI.Groups;
 
 namespace Hikaria.AdminSystem.Features.Misc;
 
@@ -9,7 +10,7 @@ public class NoiseBlocker : Feature
 {
     public override string Name => "噪声拦截";
 
-    public override FeatureGroup Group => EntryPoint.Groups.Misc;
+    public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Misc");
 
     [ArchivePatch(typeof(NoiseManager), nameof(NoiseManager.ReceiveNoise))]
     private class NoiseManager__ReceiveNoise__Prefix

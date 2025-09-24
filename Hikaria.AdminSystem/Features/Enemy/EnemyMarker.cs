@@ -15,6 +15,7 @@ using TheArchive.Core.Attributes.Feature.Members;
 using TheArchive.Core.Attributes.Feature.Patches;
 using TheArchive.Core.Attributes.Feature.Settings;
 using TheArchive.Core.FeaturesAPI;
+using TheArchive.Core.FeaturesAPI.Groups;
 using TheArchive.Core.Localization;
 using TheArchive.Loader;
 using UnityEngine;
@@ -30,7 +31,7 @@ namespace Hikaria.AdminSystem.Features.Enemy
 
         public override string Description => "实时显示敌人类别、位置、血量、状态和距离信息";
 
-        public override FeatureGroup Group => EntryPoint.Groups.Enemy;
+        public override TheArchive.Core.FeaturesAPI.Groups.GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Enemy");
 
         [FeatureConfig]
         public static EnemyMarkerSettings Settings { get; set; }

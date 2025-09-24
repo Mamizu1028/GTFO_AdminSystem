@@ -1,0 +1,174 @@
+﻿{
+  "Internal": {
+    "FeatureSettingTexts": {
+      "Hikaria.AdminSystem.Features.Item.FogRepellerMarker.Name": {
+        "FName": {
+          "English": "Fog Repeller Marker",
+          "Chinese": "驱雾器标记",
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Item.FogRepellerMarker+FogRepellerMarkerSettings.ShowName": {
+        "FSDisplayName": {
+          "English": "Show Name",
+          "Chinese": "显示名称",
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Item.FogRepellerMarker+FogRepellerMarkerSettings.ShowState": {
+        "FSDisplayName": {
+          "English": "Show State",
+          "Chinese": "显示状态",
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Item.FogRepellerMarker+FogRepellerMarkerSettings.ShowStateTimer": {
+        "FSDisplayName": {
+          "English": "Show State Timer",
+          "Chinese": "显示状态计时器",
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      }
+    },
+    "EnumTexts": {}
+  },
+  "External": {
+    "FeatureSettingTexts": {},
+    "EnumTexts": {
+      "eFogRepellerSphereState": {
+        "English": {
+          "Disabled": "Disabled",
+          "Initialize": "Initialize",
+          "Grow": "Grow",
+          "Life": "Life",
+          "Shrink": "Shrink"
+        },
+        "Chinese": {
+          "Disabled": "停止",
+          "Initialize": "初始化",
+          "Grow": "增强",
+          "Life": "持续",
+          "Shrink": "减弱"
+        },
+        "French": {
+          "Disabled": null,
+          "Initialize": null,
+          "Grow": null,
+          "Life": null,
+          "Shrink": null
+        },
+        "Italian": {
+          "Disabled": null,
+          "Initialize": null,
+          "Grow": null,
+          "Life": null,
+          "Shrink": null
+        },
+        "German": {
+          "Disabled": null,
+          "Initialize": null,
+          "Grow": null,
+          "Life": null,
+          "Shrink": null
+        },
+        "Spanish": {
+          "Disabled": null,
+          "Initialize": null,
+          "Grow": null,
+          "Life": null,
+          "Shrink": null
+        },
+        "Russian": {
+          "Disabled": null,
+          "Initialize": null,
+          "Grow": null,
+          "Life": null,
+          "Shrink": null
+        },
+        "Portuguese_Brazil": {
+          "Disabled": null,
+          "Initialize": null,
+          "Grow": null,
+          "Life": null,
+          "Shrink": null
+        },
+        "Polish": {
+          "Disabled": null,
+          "Initialize": null,
+          "Grow": null,
+          "Life": null,
+          "Shrink": null
+        },
+        "Japanese": {
+          "Disabled": null,
+          "Initialize": null,
+          "Grow": null,
+          "Life": null,
+          "Shrink": null
+        },
+        "Korean": {
+          "Disabled": null,
+          "Initialize": null,
+          "Grow": null,
+          "Life": null,
+          "Shrink": null
+        }
+      }
+    }
+  },
+  "GenericText": {
+    "1": {
+      "Comment": "Fog Repeller",
+      "Data": {
+        "English": "Fog Repeller",
+        "Chinese": "驱雾器"
+      }
+    },
+    "2": {
+      "Comment": "State",
+      "Data": {
+        "English": "State",
+        "Chinese": "状态"
+      }
+    },
+    "3": {
+      "Comment": "Timer",
+      "Data": {
+        "English": "Timer",
+        "Chinese": "剩余"
+      }
+    }
+  }
+}

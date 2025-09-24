@@ -9,6 +9,8 @@ using SNetwork;
 using TheArchive.Core.Attributes.Feature;
 using TheArchive.Core.Attributes.Feature.Patches;
 using TheArchive.Core.FeaturesAPI;
+using TheArchive.Core.FeaturesAPI.Groups;
+using UnityEngine;
 
 namespace Hikaria.AdminSystem.Features.Player
 {
@@ -19,7 +21,7 @@ namespace Hikaria.AdminSystem.Features.Player
     {
         public override string Name => "无限资源";
 
-        public override FeatureGroup Group => EntryPoint.Groups.Player;
+        public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Player");
 
         private static Dictionary<ulong, InfiniteResourceSettings> InfResourceLookup = new();
 
@@ -206,9 +208,7 @@ namespace Hikaria.AdminSystem.Features.Player
             {
                 SNet_Player player = __instance.m_playerBackpack.Owner;
                 if (!InfResourceLookup[player.Lookup].InfResource)
-                {
                     return;
-                }
                 //获取当前的AmmoStorageData, 再进行通告
                 pAmmoStorageData storageData = __instance.GetStorageData();
                 __instance.m_playerBackpack.OnStorageUpdatedCallback?.Invoke(__instance.m_playerBackpack);
@@ -223,23 +223,19 @@ namespace Hikaria.AdminSystem.Features.Player
             private static void Postfix(SentryGunInstance_Sync __instance)
             {
                 if (CurrentGameState != (int)eGameStateName.InLevel)
-                {
                     return;
-                }
                 if (SNet.IsMaster)
-                {
                     return;
-                }
 
                 SentryGunInstance core = __instance.m_core.Cast<SentryGunInstance>();
-                SNet_Player player = core.Owner.Owner;
-                if (!InfResourceLookup.TryGetValue(player.Lookup, out var entry) || !entry.InfResource)
-                {
+                SNet_Player player = core.Owner?.Owner;
+                if (player == null)
                     return;
-                }
+                if (!InfResourceLookup.TryGetValue(player.Lookup, out var entry) || !entry.InfResource)
+                    return;
 
                 //炮台的最大弹药量
-                int max = (int)(core.AmmoMaxCap / core.CostOfBullet);
+                int max = Mathf.CeilToInt(core.AmmoMaxCap / core.CostOfBullet);
 
                 //更新并通告弹药量
                 __instance.ForceReliableAmmoUpdate(max);
@@ -253,13 +249,9 @@ namespace Hikaria.AdminSystem.Features.Player
             private static void Prefix(ref pAmmoStorageData data)
             {
                 if (CurrentGameState != (int)eGameStateName.InLevel)
-                {
                     return;
-                }
                 if (!SNet.Core.TryGetPlayer(data.PlayerLookup, out var player) || !PlayerBackpackManager.TryGetBackpack(player, out var playerBackpack) || !InfResourceLookup.TryGetValue(player.Lookup, out var entry))
-                {
                     return;
-                }
                 if (entry.InfResource)
                 {
                     data.standardAmmo.Set(playerBackpack.AmmoStorage.StandardAmmo.AmmoMaxCap + playerBackpack.AmmoStorage.StandardAmmo.BulletClipSize * playerBackpack.AmmoStorage.StandardAmmo.CostOfBullet, 500f);
@@ -281,13 +273,9 @@ namespace Hikaria.AdminSystem.Features.Player
             private static void Postfix(ref pAmmoStorageData data)
             {
                 if (CurrentGameState != (int)eGameStateName.InLevel)
-                {
                     return;
-                }
                 if (!SNet.Core.TryGetPlayer(data.PlayerLookup, out SNet_Player player) || !PlayerBackpackManager.TryGetBackpack(player, out _) || !InfResourceLookup.TryGetValue(player.Lookup, out var entry))
-                {
                     return;
-                }
                 if (entry.InfResource || entry.NoResource)
                 {
                     PlayerBackpackManager.Current.m_ammoStoragePacket.Send(data, SNet_ChannelType.GameOrderCritical);
@@ -319,13 +307,9 @@ namespace Hikaria.AdminSystem.Features.Player
             private static void Postfix(PlayerSync __instance, pInventoryStatus data)
             {
                 if (CurrentGameState != (int)eGameStateName.InLevel)
-                {
                     return;
-                }
                 if (__instance.m_agent == null || __instance.m_agent.Owner == null)
-                {
                     return;
-                }
                 if (InfResourceLookup.TryGetValue(__instance.m_agent.Owner.Lookup, out var entry) && entry.ForceDeploy && data.wieldedSlot != InventorySlot.None)
                 {
                     __instance.WantsToWieldSlot(InventorySlot.None);
@@ -340,9 +324,7 @@ namespace Hikaria.AdminSystem.Features.Player
             private static void Prefix()
             {
                 if (CurrentGameState != (int)eGameStateName.InLevel || !InfResourceLookup[SNet.LocalPlayer.Lookup].InfResource)
-                {
                     return;
-                }
                 pAmmoStorageData data = PlayerBackpackManager.LocalBackpack.AmmoStorage.GetStorageData();
                 if (PlayerBackpackManager.LocalBackpack.AmmoStorage.GetBulletsInPack(AmmoType.Standard) < PlayerBackpackManager.LocalBackpack.AmmoStorage.GetBulletMaxCap(AmmoType.Standard))
                 {

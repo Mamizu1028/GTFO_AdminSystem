@@ -1,8 +1,8 @@
 ﻿using SNetwork;
-using TheArchive.Core.Attributes;
 using TheArchive.Core.Attributes.Feature;
 using TheArchive.Core.Attributes.Feature.Patches;
 using TheArchive.Core.FeaturesAPI;
+using TheArchive.Core.FeaturesAPI.Groups;
 
 namespace Hikaria.AdminSystem.Features.Security;
 
@@ -11,7 +11,7 @@ public class CConsoleCompatible : Feature
 {
     public override string Name => "CConsole 兼容";
 
-    public override FeatureGroup Group => EntryPoint.Groups.Security;
+    public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Security");
 
     [ArchivePatch(typeof(SNet_SyncManager), nameof(SNet_SyncManager.SetGenerationChecksum))]
     private static class Inject_BlockJoiningNormalLobby

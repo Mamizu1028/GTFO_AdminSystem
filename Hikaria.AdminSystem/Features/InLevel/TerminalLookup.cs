@@ -1,16 +1,13 @@
-﻿using Hikaria.AdminSystem.Suggestion;
-using Hikaria.AdminSystem.Utilities;
+﻿using Hikaria.AdminSystem.Utilities;
 using Hikaria.AdminSystem.Utility;
 using Hikaria.QC;
 using Hikaria.QC.Actions;
 using LevelGeneration;
-using System.Collections.Generic;
 using System.Text;
-using TheArchive.Core.Attributes;
 using TheArchive.Core.Attributes.Feature;
 using TheArchive.Core.Attributes.Feature.Patches;
 using TheArchive.Core.FeaturesAPI;
-
+using TheArchive.Core.FeaturesAPI.Groups;
 
 namespace Hikaria.AdminSystem.Features.InLevel
 {
@@ -25,7 +22,7 @@ namespace Hikaria.AdminSystem.Features.InLevel
 
         public override string Description => base.Description;
 
-        public override FeatureGroup Group => EntryPoint.Groups.InLevel;
+        public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("InLevel");
 
         private static Dictionary<int, LG_ComputerTerminal> TerminalsInLevel = new();
 

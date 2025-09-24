@@ -1,13 +1,9 @@
 ﻿using Enemies;
 using GameData;
-using System.Collections.Generic;
-using System.Linq;
-using TheArchive.Core;
-using TheArchive.Interfaces;
 
 namespace Hikaria.AdminSystem.Managers
 {
-    public class EnemyDamageDataHelper : InitSingletonBase<EnemyDamageDataHelper>, IInitAfterGameDataInitialized
+    public static class EnemyDataHelper
     {
         public static Dictionary<uint, EnemyDataBlock> EnemyDataBlockLookup { get; set; } = new();
 
@@ -15,7 +11,7 @@ namespace Hikaria.AdminSystem.Managers
 
         public static float ArmorMultiThreshold { get; set; } = 0.1f;
 
-        public void Init()
+        public static void Init()
         {
             EnemyDataBlockLookup.Clear();
             foreach (EnemyDataBlock block in EnemyDataBlock.GetAllBlocksForEditor())

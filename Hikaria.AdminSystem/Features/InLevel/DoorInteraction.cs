@@ -1,15 +1,12 @@
-﻿using Hikaria.AdminSystem.Suggestion;
-using Hikaria.AdminSystem.Suggestions.Suggestors.Attributes;
+﻿using Hikaria.AdminSystem.Suggestions.Suggestors.Attributes;
 using Hikaria.AdminSystem.Utilities;
 using Hikaria.AdminSystem.Utility;
 using Hikaria.QC;
 using LevelGeneration;
-using System.Collections.Generic;
-using System.Linq;
-using TheArchive.Core.Attributes;
 using TheArchive.Core.Attributes.Feature;
 using TheArchive.Core.Attributes.Feature.Patches;
 using TheArchive.Core.FeaturesAPI;
+using TheArchive.Core.FeaturesAPI.Groups;
 
 namespace Hikaria.AdminSystem.Features.InLevel
 {
@@ -20,7 +17,7 @@ namespace Hikaria.AdminSystem.Features.InLevel
     {
         public override string Name => "操作门";
 
-        public override FeatureGroup Group => EntryPoint.Groups.InLevel;
+        public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("InLevel");
 
         private static Dictionary<int, LG_SecurityDoor> SecurityDoorsInLevel = new();
 

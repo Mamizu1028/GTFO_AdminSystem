@@ -4,6 +4,7 @@ using TheArchive.Core.Attributes.Feature.Members;
 using TheArchive.Core.Attributes.Feature.Patches;
 using TheArchive.Core.Attributes.Feature.Settings;
 using TheArchive.Core.FeaturesAPI;
+using TheArchive.Core.FeaturesAPI.Groups;
 
 namespace Hikaria.AdminSystem.Features.Misc;
 
@@ -12,7 +13,7 @@ public class HackingToolEnhancement : Feature
 {
     public override string Name => "入侵工具增强";
 
-    public override FeatureGroup Group => EntryPoint.Groups.Misc;
+    public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Misc");
 
     [FeatureConfig]
     public static HackingMinigameAutoCompleteSettings Settings { get; set; }

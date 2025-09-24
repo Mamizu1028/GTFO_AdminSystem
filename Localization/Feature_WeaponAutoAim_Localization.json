@@ -1,0 +1,492 @@
+﻿{
+  "Internal": {
+    "FeatureSettingTexts": {
+      "Hikaria.AdminSystem.Features.Weapon.WeaponAutoAim.Name": {
+        "FName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Weapon.WeaponAutoAim.Description": {
+        "FDescription": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Weapon.WeaponAutoAim+WeaponAutoAimSettings.EnableAutoAim": {
+        "FSDisplayName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Weapon.WeaponAutoAim+WeaponAutoAimSettings.WallHackAim": {
+        "FSDisplayName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Weapon.WeaponAutoAim+WeaponAutoAimSettings.MagicBullet": {
+        "FSDisplayName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        },
+        "FSDescription": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Weapon.WeaponAutoAim+WeaponAutoAimSettings.MagicBulletVisibleOnly": {
+        "FSDisplayName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Weapon.WeaponAutoAim+WeaponAutoAimSettings.MagicBulletMaxCorrectionAngle": {
+        "FSDisplayName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Weapon.WeaponAutoAim+WeaponAutoAimSettings.AutoAimNodeRange": {
+        "FSDisplayName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        },
+        "FSDescription": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Weapon.WeaponAutoAim+WeaponAutoAimSettings.AimMode": {
+        "FSDisplayName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        },
+        "FSDescription": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Weapon.WeaponAutoAim+WeaponAutoAimSettings.PauseAutoAimKey": {
+        "FSDisplayName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        },
+        "FSDescription": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Weapon.WeaponAutoAim+WeaponAutoAimSettings.ReversePauseAutoAim": {
+        "FSDisplayName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Weapon.WeaponAutoAim+WeaponAutoAimSettings.AutoFire": {
+        "FSDisplayName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Weapon.WeaponAutoAim+WeaponAutoAimSettings.AimRadius": {
+        "FSDisplayName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        },
+        "FSDescription": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Weapon.WeaponAutoAim+WeaponAutoAimSettings.IgnoreAimRadius": {
+        "FSDisplayName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Weapon.WeaponAutoAim+WeaponAutoAimSettings.ArmorLimbDamageMultiThreshold": {
+        "FSDisplayName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        },
+        "FSDescription": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Weapon.WeaponAutoAim+WeaponAutoAimSettings.TargetedColor": {
+        "FSDisplayName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        },
+        "FSHeader": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Weapon.WeaponAutoAim+WeaponAutoAimSettings.TargetedWeakspotColor": {
+        "FSDisplayName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Weapon.WeaponAutoAim+WeaponAutoAimSettings.UnTargetedColor": {
+        "FSDisplayName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Weapon.WeaponAutoAim+WeaponAutoAimSettings.PassiveDetection": {
+        "FSDisplayName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      }
+    },
+    "EnumTexts": {
+      "Hikaria.AdminSystem.Features.Weapon.WeaponAutoAim+WeaponAutoAimSettings+AutoAimMode": {
+        "English": {
+          "Crosshair": "Crosshair",
+          "Closest": "Closest"
+        },
+        "Chinese": {
+          "Crosshair": "准心优先",
+          "Closest": "近处优先"
+        },
+        "French": {
+          "Crosshair": null,
+          "Closest": null
+        },
+        "Italian": {
+          "Crosshair": null,
+          "Closest": null
+        },
+        "German": {
+          "Crosshair": null,
+          "Closest": null
+        },
+        "Spanish": {
+          "Crosshair": null,
+          "Closest": null
+        },
+        "Russian": {
+          "Crosshair": null,
+          "Closest": null
+        },
+        "Portuguese_Brazil": {
+          "Crosshair": null,
+          "Closest": null
+        },
+        "Polish": {
+          "Crosshair": null,
+          "Closest": null
+        },
+        "Japanese": {
+          "Crosshair": null,
+          "Closest": null
+        },
+        "Korean": {
+          "Crosshair": null,
+          "Closest": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Weapon.WeaponAutoAim+WeaponAutoAimSettings+AutoFireMode": {
+        "English": {
+          "Off": "Off",
+          "SemiAuto": "Semi Auto",
+          "FullyAuto": "Fully Auto"
+        },
+        "Chinese": {
+          "Off": "关",
+          "SemiAuto": "半自动",
+          "FullyAuto": "全自动"
+        },
+        "French": {
+          "Off": null,
+          "SemiAuto": null,
+          "FullyAuto": null
+        },
+        "Italian": {
+          "Off": null,
+          "SemiAuto": null,
+          "FullyAuto": null
+        },
+        "German": {
+          "Off": null,
+          "SemiAuto": null,
+          "FullyAuto": null
+        },
+        "Spanish": {
+          "Off": null,
+          "SemiAuto": null,
+          "FullyAuto": null
+        },
+        "Russian": {
+          "Off": null,
+          "SemiAuto": null,
+          "FullyAuto": null
+        },
+        "Portuguese_Brazil": {
+          "Off": null,
+          "SemiAuto": null,
+          "FullyAuto": null
+        },
+        "Polish": {
+          "Off": null,
+          "SemiAuto": null,
+          "FullyAuto": null
+        },
+        "Japanese": {
+          "Off": null,
+          "SemiAuto": null,
+          "FullyAuto": null
+        },
+        "Korean": {
+          "Off": null,
+          "SemiAuto": null,
+          "FullyAuto": null
+        }
+      }
+    }
+  },
+  "External": {
+    "FeatureSettingTexts": {},
+    "EnumTexts": {}
+  },
+  "GenericText": {}
+}

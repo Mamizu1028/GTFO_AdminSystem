@@ -4,22 +4,23 @@ using TheArchive.Core.Attributes.Feature;
 using TheArchive.Core.Attributes.Feature.Members;
 using TheArchive.Core.Attributes.Feature.Settings;
 using TheArchive.Core.FeaturesAPI;
+using TheArchive.Core.FeaturesAPI.Groups;
 
 namespace Hikaria.AdminSystem.Features.Item
 {
     [EnableFeatureByDefault]
     [DisallowInGameToggle]
     [DoNotSaveToConfig]
-    public class ItemMarker : Feature
+    public class SuperItemMarker : Feature
     {
         public override string Name => "物品标记";
 
-        public override FeatureGroup Group => EntryPoint.Groups.Item;
+        public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Item");
 
         [FeatureConfig]
-        public static ItemMarkerSettings Settings { get; set; }
+        public static SuperItemMarkerSettings Settings { get; set; }
 
-        public class ItemMarkerSettings
+        public class SuperItemMarkerSettings
         {
             [FSDisplayName("状态")]
             public bool EnableItemMarker { get => ItemMarkerManager.DevMode; set => ItemMarkerManager.DevMode = value; }

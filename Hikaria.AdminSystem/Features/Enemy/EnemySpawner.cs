@@ -25,7 +25,7 @@ namespace Hikaria.AdminSystem.Features.Enemy
     {
         public override string Name => "刷怪";
 
-        public override FeatureGroup Group => EntryPoint.Groups.Enemy;
+        public override TheArchive.Core.FeaturesAPI.Groups.GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Enemy");
 
         [ArchivePatch(typeof(EnemySync), nameof(EnemySync.OnSpawn))]
         private class EnemySync__OnSpawn__Patch

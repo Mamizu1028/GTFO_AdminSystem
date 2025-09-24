@@ -1,0 +1,103 @@
+﻿{
+  "Internal": {
+    "FeatureSettingTexts": {
+      "Hikaria.AdminSystem.Features.Misc.SuperBioTracker.Name": {
+        "FName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Misc.SuperBioTracker+SuperBioTrackerSetting.UseBotTag": {
+        "FSDisplayName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Misc.SuperBioTracker+SuperBioTrackerSetting.IgnoreMaxTags": {
+        "FSDisplayName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Misc.SuperBioTracker+SuperBioTrackerSetting.MaxTagDot": {
+        "FSDisplayName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      }
+    },
+    "EnumTexts": {}
+  },
+  "External": {
+    "FeatureSettingTexts": {},
+    "EnumTexts": {}
+  },
+  "GenericText": {
+    "1": {
+      "Comment": "NO MOVING TARGETS FOUND",
+      "Data": {
+        "English": "NO MOVING TARGETS FOUND",
+        "Chinese": "未找到移动目标"
+      }
+    },
+    "2": {
+      "Comment": "Tagging..",
+      "Description": "",
+      "ID": 2,
+      "Data": {
+        "English": "Tagging..",
+        "Chinese": "正在标记.."
+      }
+    },
+    "3": {
+      "Comment": "Recharging..",
+      "Data": {
+        "English": "Recharging..",
+        "Chinese": "正在充能.."
+      }
+    },
+    "4": {
+      "Comment": "Ready to tag",
+      "Data": {
+        "English": "Ready to tag",
+        "Chinese": "标记已准备就绪"
+      }
+    }
+  }
+}

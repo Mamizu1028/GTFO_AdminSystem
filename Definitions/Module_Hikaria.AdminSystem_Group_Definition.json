@@ -1,0 +1,227 @@
+﻿{
+  "ModuleGroup": {
+    "LocalizationData": {
+      "DisplayName": {
+        "English": "Admin System",
+        "Chinese": "管理员",
+        "French": null,
+        "Italian": null,
+        "German": null,
+        "Spanish": null,
+        "Russian": null,
+        "Portuguese_Brazil": null,
+        "Polish": null,
+        "Japanese": null,
+        "Korean": null
+      },
+      "Description": {
+        "English": null,
+        "Chinese": null,
+        "French": null,
+        "Italian": null,
+        "German": null,
+        "Spanish": null,
+        "Russian": null,
+        "Portuguese_Brazil": null,
+        "Polish": null,
+        "Japanese": null,
+        "Korean": null
+      }
+    },
+    "SubGroups": [
+      {
+        "Name": "Enemy",
+        "IsHidden": false,
+        "LocalizationData": {
+          "DisplayName": {
+            "English": "Enemy",
+            "Chinese": "敌人",
+            "French": null,
+            "Italian": null,
+            "German": null,
+            "Spanish": null,
+            "Russian": null,
+            "Portuguese_Brazil": null,
+            "Polish": null,
+            "Japanese": null,
+            "Korean": null
+          },
+          "Description": {
+            "English": null,
+            "Chinese": null,
+            "French": null,
+            "Italian": null,
+            "German": null,
+            "Spanish": null,
+            "Russian": null,
+            "Portuguese_Brazil": null,
+            "Polish": null,
+            "Japanese": null,
+            "Korean": null
+          }
+        }
+      },
+      {
+        "Name": "Item",
+        "IsHidden": false,
+        "LocalizationData": {
+          "DisplayName": {
+            "English": "Item",
+            "Chinese": "物品",
+            "French": null,
+            "Italian": null,
+            "German": null,
+            "Spanish": null,
+            "Russian": null,
+            "Portuguese_Brazil": null,
+            "Polish": null,
+            "Japanese": null,
+            "Korean": null
+          },
+          "Description": {
+            "English": null,
+            "Chinese": null,
+            "French": null,
+            "Italian": null,
+            "German": null,
+            "Spanish": null,
+            "Russian": null,
+            "Portuguese_Brazil": null,
+            "Polish": null,
+            "Japanese": null,
+            "Korean": null
+          }
+        }
+      },
+      {
+        "Name": "Misc",
+        "IsHidden": false,
+        "LocalizationData": {
+          "DisplayName": {
+            "English": "Misc",
+            "Chinese": "杂项",
+            "French": null,
+            "Italian": null,
+            "German": null,
+            "Spanish": null,
+            "Russian": null,
+            "Portuguese_Brazil": null,
+            "Polish": null,
+            "Japanese": null,
+            "Korean": null
+          },
+          "Description": {
+            "English": null,
+            "Chinese": null,
+            "French": null,
+            "Italian": null,
+            "German": null,
+            "Spanish": null,
+            "Russian": null,
+            "Portuguese_Brazil": null,
+            "Polish": null,
+            "Japanese": null,
+            "Korean": null
+          }
+        }
+      },
+      {
+        "Name": "Player",
+        "IsHidden": false,
+        "LocalizationData": {
+          "DisplayName": {
+            "English": "Player",
+            "Chinese": "玩家",
+            "French": null,
+            "Italian": null,
+            "German": null,
+            "Spanish": null,
+            "Russian": null,
+            "Portuguese_Brazil": null,
+            "Polish": null,
+            "Japanese": null,
+            "Korean": null
+          },
+          "Description": {
+            "English": null,
+            "Chinese": null,
+            "French": null,
+            "Italian": null,
+            "German": null,
+            "Spanish": null,
+            "Russian": null,
+            "Portuguese_Brazil": null,
+            "Polish": null,
+            "Japanese": null,
+            "Korean": null
+          }
+        }
+      },
+      {
+        "Name": "Visual",
+        "IsHidden": false,
+        "LocalizationData": {
+          "DisplayName": {
+            "English": "Visual",
+            "Chinese": "可视化",
+            "French": null,
+            "Italian": null,
+            "German": null,
+            "Spanish": null,
+            "Russian": null,
+            "Portuguese_Brazil": null,
+            "Polish": null,
+            "Japanese": null,
+            "Korean": null
+          },
+          "Description": {
+            "English": null,
+            "Chinese": null,
+            "French": null,
+            "Italian": null,
+            "German": null,
+            "Spanish": null,
+            "Russian": null,
+            "Portuguese_Brazil": null,
+            "Polish": null,
+            "Japanese": null,
+            "Korean": null
+          }
+        }
+      },
+      {
+        "Name": "Weapon",
+        "IsHidden": false,
+        "LocalizationData": {
+          "DisplayName": {
+            "English": "Weapon",
+            "Chinese": "武器",
+            "French": null,
+            "Italian": null,
+            "German": null,
+            "Spanish": null,
+            "Russian": null,
+            "Portuguese_Brazil": null,
+            "Polish": null,
+            "Japanese": null,
+            "Korean": null
+          },
+          "Description": {
+            "English": null,
+            "Chinese": null,
+            "French": null,
+            "Italian": null,
+            "German": null,
+            "Spanish": null,
+            "Russian": null,
+            "Portuguese_Brazil": null,
+            "Polish": null,
+            "Japanese": null,
+            "Korean": null
+          }
+        }
+      }
+    ]
+  },
+  "TopLevelGroups": []
+}

@@ -8,6 +8,7 @@ using TheArchive.Core.Attributes.Feature.Members;
 using TheArchive.Core.Attributes.Feature.Patches;
 using TheArchive.Core.Attributes.Feature.Settings;
 using TheArchive.Core.FeaturesAPI;
+using TheArchive.Core.FeaturesAPI.Groups;
 using UnityEngine;
 
 namespace Hikaria.AdminSystem.Features.Weapon
@@ -21,7 +22,7 @@ namespace Hikaria.AdminSystem.Features.Weapon
 
         public override string Description => "增强武器属性";
 
-        public override FeatureGroup Group => EntryPoint.Groups.Weapon;
+        public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Weapon");
 
         [FeatureConfig]
         public static WeaponEnhanceSettings Settings { get; set; }

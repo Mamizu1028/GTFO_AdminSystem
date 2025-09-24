@@ -1,0 +1,9336 @@
+{
+  "AutoAim": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "AutoAim value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "AutoReload": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "AutoReload value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "AutoTrigger": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "AutoTrigger value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "BanPlayer slot": {
+    "English": {
+      "Description": "封禁玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Chinese": {
+      "Description": "封禁玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "French": {
+      "Description": "封禁玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Italian": {
+      "Description": "封禁玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "German": {
+      "Description": "封禁玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Spanish": {
+      "Description": "封禁玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Russian": {
+      "Description": "封禁玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "封禁玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Polish": {
+      "Description": "封禁玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Japanese": {
+      "Description": "封禁玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Korean": {
+      "Description": "封禁玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    }
+  },
+  "CannotDie slot": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    }
+  },
+  "ClearSight": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "ClearSight value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "DisableStamina": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "DisableStamina value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "DropItem": {
+    "English": {
+      "Description": "丢弃物品",
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": "丢弃物品",
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": "丢弃物品",
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": "丢弃物品",
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": "丢弃物品",
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": "丢弃物品",
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": "丢弃物品",
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": "丢弃物品",
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": "丢弃物品",
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": "丢弃物品",
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": "丢弃物品",
+      "ParameterDescriptions": {}
+    }
+  },
+  "DropItem slot itemSlot": {
+    "English": {
+      "Description": "丢弃物品",
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemSlot": null
+      }
+    },
+    "Chinese": {
+      "Description": "丢弃物品",
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemSlot": null
+      }
+    },
+    "French": {
+      "Description": "丢弃物品",
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemSlot": null
+      }
+    },
+    "Italian": {
+      "Description": "丢弃物品",
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemSlot": null
+      }
+    },
+    "German": {
+      "Description": "丢弃物品",
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemSlot": null
+      }
+    },
+    "Spanish": {
+      "Description": "丢弃物品",
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemSlot": null
+      }
+    },
+    "Russian": {
+      "Description": "丢弃物品",
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemSlot": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "丢弃物品",
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemSlot": null
+      }
+    },
+    "Polish": {
+      "Description": "丢弃物品",
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemSlot": null
+      }
+    },
+    "Japanese": {
+      "Description": "丢弃物品",
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemSlot": null
+      }
+    },
+    "Korean": {
+      "Description": "丢弃物品",
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemSlot": null
+      }
+    }
+  },
+  "EnemyDetection": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "EnemyDetection value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "EnemyMarker": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "EnemyMarker value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "EnemyMarkerRange": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "EnemyMarkerRange value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "EnemyPathVisualizer": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "EnemyPathVisualizer value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "EnemyPathVisualizeRange": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "EnemyPathVisualizeRange value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "EnemyPathVisualizerMode": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "EnemyPathVisualizerMode value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "EnemyPathVisualizerType type": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "type": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "type": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "type": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "type": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "type": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "type": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "type": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "type": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "type": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "type": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "type": null
+      }
+    }
+  },
+  "EnemySetState state choice": {
+    "English": {
+      "Description": "设置敌人状态",
+      "ParameterDescriptions": {
+        "state": null,
+        "choice": null
+      }
+    },
+    "Chinese": {
+      "Description": "设置敌人状态",
+      "ParameterDescriptions": {
+        "state": null,
+        "choice": null
+      }
+    },
+    "French": {
+      "Description": "设置敌人状态",
+      "ParameterDescriptions": {
+        "state": null,
+        "choice": null
+      }
+    },
+    "Italian": {
+      "Description": "设置敌人状态",
+      "ParameterDescriptions": {
+        "state": null,
+        "choice": null
+      }
+    },
+    "German": {
+      "Description": "设置敌人状态",
+      "ParameterDescriptions": {
+        "state": null,
+        "choice": null
+      }
+    },
+    "Spanish": {
+      "Description": "设置敌人状态",
+      "ParameterDescriptions": {
+        "state": null,
+        "choice": null
+      }
+    },
+    "Russian": {
+      "Description": "设置敌人状态",
+      "ParameterDescriptions": {
+        "state": null,
+        "choice": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "设置敌人状态",
+      "ParameterDescriptions": {
+        "state": null,
+        "choice": null
+      }
+    },
+    "Polish": {
+      "Description": "设置敌人状态",
+      "ParameterDescriptions": {
+        "state": null,
+        "choice": null
+      }
+    },
+    "Japanese": {
+      "Description": "设置敌人状态",
+      "ParameterDescriptions": {
+        "state": null,
+        "choice": null
+      }
+    },
+    "Korean": {
+      "Description": "设置敌人状态",
+      "ParameterDescriptions": {
+        "state": null,
+        "choice": null
+      }
+    }
+  },
+  "EnemySetTarget slot choice": {
+    "English": {
+      "Description": "设置敌人目标",
+      "ParameterDescriptions": {
+        "slot": null,
+        "choice": null
+      }
+    },
+    "Chinese": {
+      "Description": "设置敌人目标",
+      "ParameterDescriptions": {
+        "slot": null,
+        "choice": null
+      }
+    },
+    "French": {
+      "Description": "设置敌人目标",
+      "ParameterDescriptions": {
+        "slot": null,
+        "choice": null
+      }
+    },
+    "Italian": {
+      "Description": "设置敌人目标",
+      "ParameterDescriptions": {
+        "slot": null,
+        "choice": null
+      }
+    },
+    "German": {
+      "Description": "设置敌人目标",
+      "ParameterDescriptions": {
+        "slot": null,
+        "choice": null
+      }
+    },
+    "Spanish": {
+      "Description": "设置敌人目标",
+      "ParameterDescriptions": {
+        "slot": null,
+        "choice": null
+      }
+    },
+    "Russian": {
+      "Description": "设置敌人目标",
+      "ParameterDescriptions": {
+        "slot": null,
+        "choice": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "设置敌人目标",
+      "ParameterDescriptions": {
+        "slot": null,
+        "choice": null
+      }
+    },
+    "Polish": {
+      "Description": "设置敌人目标",
+      "ParameterDescriptions": {
+        "slot": null,
+        "choice": null
+      }
+    },
+    "Japanese": {
+      "Description": "设置敌人目标",
+      "ParameterDescriptions": {
+        "slot": null,
+        "choice": null
+      }
+    },
+    "Korean": {
+      "Description": "设置敌人目标",
+      "ParameterDescriptions": {
+        "slot": null,
+        "choice": null
+      }
+    }
+  },
+  "FastElevator": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "FastElevator value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "FinishAllWardenObjectiveChain": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "FinishWardenObjectiveChain layer": {
+    "English": {
+      "Description": "完成任务",
+      "ParameterDescriptions": {
+        "layer": null
+      }
+    },
+    "Chinese": {
+      "Description": "完成任务",
+      "ParameterDescriptions": {
+        "layer": null
+      }
+    },
+    "French": {
+      "Description": "完成任务",
+      "ParameterDescriptions": {
+        "layer": null
+      }
+    },
+    "Italian": {
+      "Description": "完成任务",
+      "ParameterDescriptions": {
+        "layer": null
+      }
+    },
+    "German": {
+      "Description": "完成任务",
+      "ParameterDescriptions": {
+        "layer": null
+      }
+    },
+    "Spanish": {
+      "Description": "完成任务",
+      "ParameterDescriptions": {
+        "layer": null
+      }
+    },
+    "Russian": {
+      "Description": "完成任务",
+      "ParameterDescriptions": {
+        "layer": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "完成任务",
+      "ParameterDescriptions": {
+        "layer": null
+      }
+    },
+    "Polish": {
+      "Description": "完成任务",
+      "ParameterDescriptions": {
+        "layer": null
+      }
+    },
+    "Japanese": {
+      "Description": "完成任务",
+      "ParameterDescriptions": {
+        "layer": null
+      }
+    },
+    "Korean": {
+      "Description": "完成任务",
+      "ParameterDescriptions": {
+        "layer": null
+      }
+    }
+  },
+  "FireGlue glueExpand": {
+    "English": {
+      "Description": "喷射结沫",
+      "ParameterDescriptions": {
+        "glueExpand": null
+      }
+    },
+    "Chinese": {
+      "Description": "喷射结沫",
+      "ParameterDescriptions": {
+        "glueExpand": null
+      }
+    },
+    "French": {
+      "Description": "喷射结沫",
+      "ParameterDescriptions": {
+        "glueExpand": null
+      }
+    },
+    "Italian": {
+      "Description": "喷射结沫",
+      "ParameterDescriptions": {
+        "glueExpand": null
+      }
+    },
+    "German": {
+      "Description": "喷射结沫",
+      "ParameterDescriptions": {
+        "glueExpand": null
+      }
+    },
+    "Spanish": {
+      "Description": "喷射结沫",
+      "ParameterDescriptions": {
+        "glueExpand": null
+      }
+    },
+    "Russian": {
+      "Description": "喷射结沫",
+      "ParameterDescriptions": {
+        "glueExpand": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "喷射结沫",
+      "ParameterDescriptions": {
+        "glueExpand": null
+      }
+    },
+    "Polish": {
+      "Description": "喷射结沫",
+      "ParameterDescriptions": {
+        "glueExpand": null
+      }
+    },
+    "Japanese": {
+      "Description": "喷射结沫",
+      "ParameterDescriptions": {
+        "glueExpand": null
+      }
+    },
+    "Korean": {
+      "Description": "喷射结沫",
+      "ParameterDescriptions": {
+        "glueExpand": null
+      }
+    }
+  },
+  "FireTargeting type slot count": {
+    "English": {
+      "Description": "发射追踪粒子",
+      "ParameterDescriptions": {
+        "type": null,
+        "slot": null,
+        "count": null
+      }
+    },
+    "Chinese": {
+      "Description": "发射追踪粒子",
+      "ParameterDescriptions": {
+        "type": null,
+        "slot": null,
+        "count": null
+      }
+    },
+    "French": {
+      "Description": "发射追踪粒子",
+      "ParameterDescriptions": {
+        "type": null,
+        "slot": null,
+        "count": null
+      }
+    },
+    "Italian": {
+      "Description": "发射追踪粒子",
+      "ParameterDescriptions": {
+        "type": null,
+        "slot": null,
+        "count": null
+      }
+    },
+    "German": {
+      "Description": "发射追踪粒子",
+      "ParameterDescriptions": {
+        "type": null,
+        "slot": null,
+        "count": null
+      }
+    },
+    "Spanish": {
+      "Description": "发射追踪粒子",
+      "ParameterDescriptions": {
+        "type": null,
+        "slot": null,
+        "count": null
+      }
+    },
+    "Russian": {
+      "Description": "发射追踪粒子",
+      "ParameterDescriptions": {
+        "type": null,
+        "slot": null,
+        "count": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "发射追踪粒子",
+      "ParameterDescriptions": {
+        "type": null,
+        "slot": null,
+        "count": null
+      }
+    },
+    "Polish": {
+      "Description": "发射追踪粒子",
+      "ParameterDescriptions": {
+        "type": null,
+        "slot": null,
+        "count": null
+      }
+    },
+    "Japanese": {
+      "Description": "发射追踪粒子",
+      "ParameterDescriptions": {
+        "type": null,
+        "slot": null,
+        "count": null
+      }
+    },
+    "Korean": {
+      "Description": "发射追踪粒子",
+      "ParameterDescriptions": {
+        "type": null,
+        "slot": null,
+        "count": null
+      }
+    }
+  },
+  "FogTransition fogDataID dimensionIndex duration": {
+    "English": {
+      "Description": "改变雾气",
+      "ParameterDescriptions": {
+        "fogDataID": null,
+        "dimensionIndex": null,
+        "duration": null
+      }
+    },
+    "Chinese": {
+      "Description": "改变雾气",
+      "ParameterDescriptions": {
+        "fogDataID": null,
+        "dimensionIndex": null,
+        "duration": null
+      }
+    },
+    "French": {
+      "Description": "改变雾气",
+      "ParameterDescriptions": {
+        "fogDataID": null,
+        "dimensionIndex": null,
+        "duration": null
+      }
+    },
+    "Italian": {
+      "Description": "改变雾气",
+      "ParameterDescriptions": {
+        "fogDataID": null,
+        "dimensionIndex": null,
+        "duration": null
+      }
+    },
+    "German": {
+      "Description": "改变雾气",
+      "ParameterDescriptions": {
+        "fogDataID": null,
+        "dimensionIndex": null,
+        "duration": null
+      }
+    },
+    "Spanish": {
+      "Description": "改变雾气",
+      "ParameterDescriptions": {
+        "fogDataID": null,
+        "dimensionIndex": null,
+        "duration": null
+      }
+    },
+    "Russian": {
+      "Description": "改变雾气",
+      "ParameterDescriptions": {
+        "fogDataID": null,
+        "dimensionIndex": null,
+        "duration": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "改变雾气",
+      "ParameterDescriptions": {
+        "fogDataID": null,
+        "dimensionIndex": null,
+        "duration": null
+      }
+    },
+    "Polish": {
+      "Description": "改变雾气",
+      "ParameterDescriptions": {
+        "fogDataID": null,
+        "dimensionIndex": null,
+        "duration": null
+      }
+    },
+    "Japanese": {
+      "Description": "改变雾气",
+      "ParameterDescriptions": {
+        "fogDataID": null,
+        "dimensionIndex": null,
+        "duration": null
+      }
+    },
+    "Korean": {
+      "Description": "改变雾气",
+      "ParameterDescriptions": {
+        "fogDataID": null,
+        "dimensionIndex": null,
+        "duration": null
+      }
+    }
+  },
+  "ForceDeploy slot": {
+    "English": {
+      "Description": "强制部署",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Chinese": {
+      "Description": "强制部署",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "French": {
+      "Description": "强制部署",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Italian": {
+      "Description": "强制部署",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "German": {
+      "Description": "强制部署",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Spanish": {
+      "Description": "强制部署",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Russian": {
+      "Description": "强制部署",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "强制部署",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Polish": {
+      "Description": "强制部署",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Japanese": {
+      "Description": "强制部署",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Korean": {
+      "Description": "强制部署",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    }
+  },
+  "ForceMigration": {
+    "English": {
+      "Description": "强制迁移主机",
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": "强制迁移主机",
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": "强制迁移主机",
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": "强制迁移主机",
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": "强制迁移主机",
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": "强制迁移主机",
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": "强制迁移主机",
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": "强制迁移主机",
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": "强制迁移主机",
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": "强制迁移主机",
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": "强制迁移主机",
+      "ParameterDescriptions": {}
+    }
+  },
+  "FreeCam": {
+    "English": {
+      "Description": "自由视角",
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": "自由视角",
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": "自由视角",
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": "自由视角",
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": "自由视角",
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": "自由视角",
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": "自由视角",
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": "自由视角",
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": "自由视角",
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": "自由视角",
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": "自由视角",
+      "ParameterDescriptions": {}
+    }
+  },
+  "FuckMaster": {
+    "English": {
+      "Description": "强制夺取房主",
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": "强制夺取房主",
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": "强制夺取房主",
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": "强制夺取房主",
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": "强制夺取房主",
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": "强制夺取房主",
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": "强制夺取房主",
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": "强制夺取房主",
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": "强制夺取房主",
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": "强制夺取房主",
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": "强制夺取房主",
+      "ParameterDescriptions": {}
+    }
+  },
+  "FullBright": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "FullBright value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "GiveAllResources": {
+    "English": {
+      "Description": "给予所有玩家资源",
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": "给予所有玩家资源",
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": "给予所有玩家资源",
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": "给予所有玩家资源",
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": "给予所有玩家资源",
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": "给予所有玩家资源",
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": "给予所有玩家资源",
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": "给予所有玩家资源",
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": "给予所有玩家资源",
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": "给予所有玩家资源",
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": "给予所有玩家资源",
+      "ParameterDescriptions": {}
+    }
+  },
+  "GiveAmmo slot amount": {
+    "English": {
+      "Description": "给予玩家武器弹药",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Chinese": {
+      "Description": "给予玩家武器弹药",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "French": {
+      "Description": "给予玩家武器弹药",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Italian": {
+      "Description": "给予玩家武器弹药",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "German": {
+      "Description": "给予玩家武器弹药",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Spanish": {
+      "Description": "给予玩家武器弹药",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Russian": {
+      "Description": "给予玩家武器弹药",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "给予玩家武器弹药",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Polish": {
+      "Description": "给予玩家武器弹药",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Japanese": {
+      "Description": "给予玩家武器弹药",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Korean": {
+      "Description": "给予玩家武器弹药",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    }
+  },
+  "GiveDisinfection slot amount": {
+    "English": {
+      "Description": "给予玩家消毒",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Chinese": {
+      "Description": "给予玩家消毒",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "French": {
+      "Description": "给予玩家消毒",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Italian": {
+      "Description": "给予玩家消毒",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "German": {
+      "Description": "给予玩家消毒",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Spanish": {
+      "Description": "给予玩家消毒",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Russian": {
+      "Description": "给予玩家消毒",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "给予玩家消毒",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Polish": {
+      "Description": "给予玩家消毒",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Japanese": {
+      "Description": "给予玩家消毒",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Korean": {
+      "Description": "给予玩家消毒",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    }
+  },
+  "GiveHealth slot amount": {
+    "English": {
+      "Description": "给予玩家生命值",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Chinese": {
+      "Description": "给予玩家生命值",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "French": {
+      "Description": "给予玩家生命值",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Italian": {
+      "Description": "给予玩家生命值",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "German": {
+      "Description": "给予玩家生命值",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Spanish": {
+      "Description": "给予玩家生命值",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Russian": {
+      "Description": "给予玩家生命值",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "给予玩家生命值",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Polish": {
+      "Description": "给予玩家生命值",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Japanese": {
+      "Description": "给予玩家生命值",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Korean": {
+      "Description": "给予玩家生命值",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    }
+  },
+  "GiveItem slot id": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "id": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "id": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "id": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "id": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "id": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "id": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "id": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "id": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "id": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "id": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "id": null
+      }
+    }
+  },
+  "GiveItemByName slot name": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "name": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "name": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "name": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "name": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "name": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "name": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "name": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "name": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "name": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "name": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "name": null
+      }
+    }
+  },
+  "GiveResources slot": {
+    "English": {
+      "Description": "给予玩家资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Chinese": {
+      "Description": "给予玩家资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "French": {
+      "Description": "给予玩家资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Italian": {
+      "Description": "给予玩家资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "German": {
+      "Description": "给予玩家资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Spanish": {
+      "Description": "给予玩家资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Russian": {
+      "Description": "给予玩家资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "给予玩家资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Polish": {
+      "Description": "给予玩家资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Japanese": {
+      "Description": "给予玩家资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Korean": {
+      "Description": "给予玩家资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    }
+  },
+  "GiveResourcesAll": {
+    "English": {
+      "Description": "给予所有玩家资源",
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": "给予所有玩家资源",
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": "给予所有玩家资源",
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": "给予所有玩家资源",
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": "给予所有玩家资源",
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": "给予所有玩家资源",
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": "给予所有玩家资源",
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": "给予所有玩家资源",
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": "给予所有玩家资源",
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": "给予所有玩家资源",
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": "给予所有玩家资源",
+      "ParameterDescriptions": {}
+    }
+  },
+  "GiveTool slot amount": {
+    "English": {
+      "Description": "给予玩家工具弹药",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Chinese": {
+      "Description": "给予玩家工具弹药",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "French": {
+      "Description": "给予玩家工具弹药",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Italian": {
+      "Description": "给予玩家工具弹药",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "German": {
+      "Description": "给予玩家工具弹药",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Spanish": {
+      "Description": "给予玩家工具弹药",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Russian": {
+      "Description": "给予玩家工具弹药",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "给予玩家工具弹药",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Polish": {
+      "Description": "给予玩家工具弹药",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Japanese": {
+      "Description": "给予玩家工具弹药",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    },
+    "Korean": {
+      "Description": "给予玩家工具弹药",
+      "ParameterDescriptions": {
+        "slot": null,
+        "amount": "数量"
+      }
+    }
+  },
+  "IgnoreAllDamage slot": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    }
+  },
+  "IgnoreInfection slot": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    }
+  },
+  "IgnoreLimbMaxHealthClamp": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "IgnoreLimbMaxHealthClamp value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "InfClip": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "InfClip value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "InfResource slot": {
+    "English": {
+      "Description": "无限资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Chinese": {
+      "Description": "无限资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "French": {
+      "Description": "无限资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Italian": {
+      "Description": "无限资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "German": {
+      "Description": "无限资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Spanish": {
+      "Description": "无限资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Russian": {
+      "Description": "无限资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "无限资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Polish": {
+      "Description": "无限资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Japanese": {
+      "Description": "无限资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Korean": {
+      "Description": "无限资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    }
+  },
+  "InfSentry slot": {
+    "English": {
+      "Description": "无限哨戒炮",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Chinese": {
+      "Description": "无限哨戒炮",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "French": {
+      "Description": "无限哨戒炮",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Italian": {
+      "Description": "无限哨戒炮",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "German": {
+      "Description": "无限哨戒炮",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Spanish": {
+      "Description": "无限哨戒炮",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Russian": {
+      "Description": "无限哨戒炮",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "无限哨戒炮",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Polish": {
+      "Description": "无限哨戒炮",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Japanese": {
+      "Description": "无限哨戒炮",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Korean": {
+      "Description": "无限哨戒炮",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    }
+  },
+  "InteractSecurityDoor id interactionType": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interactionType": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interactionType": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interactionType": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interactionType": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interactionType": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interactionType": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interactionType": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interactionType": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interactionType": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interactionType": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interactionType": null
+      }
+    }
+  },
+  "InteractWeakDoor id interactionType": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interactionType": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interactionType": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interactionType": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interactionType": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interactionType": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interactionType": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interactionType": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interactionType": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interactionType": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interactionType": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interactionType": null
+      }
+    }
+  },
+  "ItemList param1 param2": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "param1": null,
+        "param2": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "param1": null,
+        "param2": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "param1": null,
+        "param2": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "param1": null,
+        "param2": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "param1": null,
+        "param2": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "param1": null,
+        "param2": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "param1": null,
+        "param2": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "param1": null,
+        "param2": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "param1": null,
+        "param2": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "param1": null,
+        "param2": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "param1": null,
+        "param2": null
+      }
+    }
+  },
+  "ItemMarker": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "ItemMarker value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "ItemPing itemName": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    }
+  },
+  "ItemQuery itemName": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    }
+  },
+  "KickPlayer slot": {
+    "English": {
+      "Description": "踢出玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Chinese": {
+      "Description": "踢出玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "French": {
+      "Description": "踢出玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Italian": {
+      "Description": "踢出玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "German": {
+      "Description": "踢出玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Spanish": {
+      "Description": "踢出玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Russian": {
+      "Description": "踢出玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "踢出玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Polish": {
+      "Description": "踢出玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Japanese": {
+      "Description": "踢出玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Korean": {
+      "Description": "踢出玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    }
+  },
+  "KillEnemies choice": {
+    "English": {
+      "Description": "杀死敌人",
+      "ParameterDescriptions": {
+        "choice": null
+      }
+    },
+    "Chinese": {
+      "Description": "杀死敌人",
+      "ParameterDescriptions": {
+        "choice": null
+      }
+    },
+    "French": {
+      "Description": "杀死敌人",
+      "ParameterDescriptions": {
+        "choice": null
+      }
+    },
+    "Italian": {
+      "Description": "杀死敌人",
+      "ParameterDescriptions": {
+        "choice": null
+      }
+    },
+    "German": {
+      "Description": "杀死敌人",
+      "ParameterDescriptions": {
+        "choice": null
+      }
+    },
+    "Spanish": {
+      "Description": "杀死敌人",
+      "ParameterDescriptions": {
+        "choice": null
+      }
+    },
+    "Russian": {
+      "Description": "杀死敌人",
+      "ParameterDescriptions": {
+        "choice": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "杀死敌人",
+      "ParameterDescriptions": {
+        "choice": null
+      }
+    },
+    "Polish": {
+      "Description": "杀死敌人",
+      "ParameterDescriptions": {
+        "choice": null
+      }
+    },
+    "Japanese": {
+      "Description": "杀死敌人",
+      "ParameterDescriptions": {
+        "choice": null
+      }
+    },
+    "Korean": {
+      "Description": "杀死敌人",
+      "ParameterDescriptions": {
+        "choice": null
+      }
+    }
+  },
+  "KillPlayer slot": {
+    "English": {
+      "Description": "处死玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Chinese": {
+      "Description": "处死玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "French": {
+      "Description": "处死玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Italian": {
+      "Description": "处死玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "German": {
+      "Description": "处死玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Spanish": {
+      "Description": "处死玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Russian": {
+      "Description": "处死玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "处死玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Polish": {
+      "Description": "处死玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Japanese": {
+      "Description": "处死玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Korean": {
+      "Description": "处死玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    }
+  },
+  "LightningStrike r g b": {
+    "English": {
+      "Description": "释放闪电",
+      "ParameterDescriptions": {
+        "r": null,
+        "g": null,
+        "b": null
+      }
+    },
+    "Chinese": {
+      "Description": "释放闪电",
+      "ParameterDescriptions": {
+        "r": null,
+        "g": null,
+        "b": null
+      }
+    },
+    "French": {
+      "Description": "释放闪电",
+      "ParameterDescriptions": {
+        "r": null,
+        "g": null,
+        "b": null
+      }
+    },
+    "Italian": {
+      "Description": "释放闪电",
+      "ParameterDescriptions": {
+        "r": null,
+        "g": null,
+        "b": null
+      }
+    },
+    "German": {
+      "Description": "释放闪电",
+      "ParameterDescriptions": {
+        "r": null,
+        "g": null,
+        "b": null
+      }
+    },
+    "Spanish": {
+      "Description": "释放闪电",
+      "ParameterDescriptions": {
+        "r": null,
+        "g": null,
+        "b": null
+      }
+    },
+    "Russian": {
+      "Description": "释放闪电",
+      "ParameterDescriptions": {
+        "r": null,
+        "g": null,
+        "b": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "释放闪电",
+      "ParameterDescriptions": {
+        "r": null,
+        "g": null,
+        "b": null
+      }
+    },
+    "Polish": {
+      "Description": "释放闪电",
+      "ParameterDescriptions": {
+        "r": null,
+        "g": null,
+        "b": null
+      }
+    },
+    "Japanese": {
+      "Description": "释放闪电",
+      "ParameterDescriptions": {
+        "r": null,
+        "g": null,
+        "b": null
+      }
+    },
+    "Korean": {
+      "Description": "释放闪电",
+      "ParameterDescriptions": {
+        "r": null,
+        "g": null,
+        "b": null
+      }
+    }
+  },
+  "LightsSynced enable": {
+    "English": {
+      "Description": "设置同步灯光",
+      "ParameterDescriptions": {
+        "enable": null
+      }
+    },
+    "Chinese": {
+      "Description": "设置同步灯光",
+      "ParameterDescriptions": {
+        "enable": null
+      }
+    },
+    "French": {
+      "Description": "设置同步灯光",
+      "ParameterDescriptions": {
+        "enable": null
+      }
+    },
+    "Italian": {
+      "Description": "设置同步灯光",
+      "ParameterDescriptions": {
+        "enable": null
+      }
+    },
+    "German": {
+      "Description": "设置同步灯光",
+      "ParameterDescriptions": {
+        "enable": null
+      }
+    },
+    "Spanish": {
+      "Description": "设置同步灯光",
+      "ParameterDescriptions": {
+        "enable": null
+      }
+    },
+    "Russian": {
+      "Description": "设置同步灯光",
+      "ParameterDescriptions": {
+        "enable": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "设置同步灯光",
+      "ParameterDescriptions": {
+        "enable": null
+      }
+    },
+    "Polish": {
+      "Description": "设置同步灯光",
+      "ParameterDescriptions": {
+        "enable": null
+      }
+    },
+    "Japanese": {
+      "Description": "设置同步灯光",
+      "ParameterDescriptions": {
+        "enable": null
+      }
+    },
+    "Korean": {
+      "Description": "设置同步灯光",
+      "ParameterDescriptions": {
+        "enable": null
+      }
+    }
+  },
+  "ListEnemiesInZone alias": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    }
+  },
+  "ListEnemyData": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "ListItemData": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "ListItemsInZone alias": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    }
+  },
+  "MapClickWarp": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "MapClickWarp value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "MultiLimbPierce": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "MultiLimbPierce value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "NearbyEnemyMoveSpeedMultiplier": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "NearbyEnemyMoveSpeedMultiplier value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "NoCameraShake": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "NoCameraShake value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "NoClip": {
+    "English": {
+      "Description": "穿墙模式",
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": "穿墙模式",
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": "穿墙模式",
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": "穿墙模式",
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": "穿墙模式",
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": "穿墙模式",
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": "穿墙模式",
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": "穿墙模式",
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": "穿墙模式",
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": "穿墙模式",
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": "穿墙模式",
+      "ParameterDescriptions": {}
+    }
+  },
+  "NoDamageFalloff": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "NoDamageFalloff value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "NoKnockback": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "NoKnockback value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "NoRecoil": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "NoRecoil value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "NoResource slot": {
+    "English": {
+      "Description": "禁用资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Chinese": {
+      "Description": "禁用资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "French": {
+      "Description": "禁用资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Italian": {
+      "Description": "禁用资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "German": {
+      "Description": "禁用资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Spanish": {
+      "Description": "禁用资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Russian": {
+      "Description": "禁用资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "禁用资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Polish": {
+      "Description": "禁用资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Japanese": {
+      "Description": "禁用资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Korean": {
+      "Description": "禁用资源",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    }
+  },
+  "NoSpread": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "NoSpread value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "OneShotKill slot": {
+    "English": {
+      "Description": "一击必杀",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Chinese": {
+      "Description": "一击必杀",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "French": {
+      "Description": "一击必杀",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Italian": {
+      "Description": "一击必杀",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "German": {
+      "Description": "一击必杀",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Spanish": {
+      "Description": "一击必杀",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Russian": {
+      "Description": "一击必杀",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "一击必杀",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Polish": {
+      "Description": "一击必杀",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Japanese": {
+      "Description": "一击必杀",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Korean": {
+      "Description": "一击必杀",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    }
+  },
+  "OperateOrUnlock": {
+    "English": {
+      "Description": "操作或解锁",
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": "操作或解锁",
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": "操作或解锁",
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": "操作或解锁",
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": "操作或解锁",
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": "操作或解锁",
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": "操作或解锁",
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": "操作或解锁",
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": "操作或解锁",
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": "操作或解锁",
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": "操作或解锁",
+      "ParameterDescriptions": {}
+    }
+  },
+  "OperateSecurityDoor alias": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "alias": null
+      }
+    }
+  },
+  "PauseGame": {
+    "English": {
+      "Description": "切换游戏暂停",
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": "切换游戏暂停",
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": "切换游戏暂停",
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": "切换游戏暂停",
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": "切换游戏暂停",
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": "切换游戏暂停",
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": "切换游戏暂停",
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": "切换游戏暂停",
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": "切换游戏暂停",
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": "切换游戏暂停",
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": "切换游戏暂停",
+      "ParameterDescriptions": {}
+    }
+  },
+  "PauseGame value": {
+    "English": {
+      "Description": "切换游戏暂停",
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": "切换游戏暂停",
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": "切换游戏暂停",
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": "切换游戏暂停",
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": "切换游戏暂停",
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": "切换游戏暂停",
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": "切换游戏暂停",
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "切换游戏暂停",
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": "切换游戏暂停",
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": "切换游戏暂停",
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": "切换游戏暂停",
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "PickupItem slot itemName": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemName": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemName": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemName": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemName": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemName": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemName": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemName": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemName": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemName": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemName": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemName": null
+      }
+    }
+  },
+  "PickupItemEye slot": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    }
+  },
+  "PlayerControl slot enable": {
+    "English": {
+      "Description": "设置玩家控制",
+      "ParameterDescriptions": {
+        "slot": null,
+        "enable": null
+      }
+    },
+    "Chinese": {
+      "Description": "设置玩家控制",
+      "ParameterDescriptions": {
+        "slot": null,
+        "enable": null
+      }
+    },
+    "French": {
+      "Description": "设置玩家控制",
+      "ParameterDescriptions": {
+        "slot": null,
+        "enable": null
+      }
+    },
+    "Italian": {
+      "Description": "设置玩家控制",
+      "ParameterDescriptions": {
+        "slot": null,
+        "enable": null
+      }
+    },
+    "German": {
+      "Description": "设置玩家控制",
+      "ParameterDescriptions": {
+        "slot": null,
+        "enable": null
+      }
+    },
+    "Spanish": {
+      "Description": "设置玩家控制",
+      "ParameterDescriptions": {
+        "slot": null,
+        "enable": null
+      }
+    },
+    "Russian": {
+      "Description": "设置玩家控制",
+      "ParameterDescriptions": {
+        "slot": null,
+        "enable": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "设置玩家控制",
+      "ParameterDescriptions": {
+        "slot": null,
+        "enable": null
+      }
+    },
+    "Polish": {
+      "Description": "设置玩家控制",
+      "ParameterDescriptions": {
+        "slot": null,
+        "enable": null
+      }
+    },
+    "Japanese": {
+      "Description": "设置玩家控制",
+      "ParameterDescriptions": {
+        "slot": null,
+        "enable": null
+      }
+    },
+    "Korean": {
+      "Description": "设置玩家控制",
+      "ParameterDescriptions": {
+        "slot": null,
+        "enable": null
+      }
+    }
+  },
+  "PlayerGiveBirth slot id count": {
+    "English": {
+      "Description": "玩家下崽子",
+      "ParameterDescriptions": {
+        "slot": null,
+        "id": null,
+        "count": null
+      }
+    },
+    "Chinese": {
+      "Description": "玩家下崽子",
+      "ParameterDescriptions": {
+        "slot": null,
+        "id": null,
+        "count": null
+      }
+    },
+    "French": {
+      "Description": "玩家下崽子",
+      "ParameterDescriptions": {
+        "slot": null,
+        "id": null,
+        "count": null
+      }
+    },
+    "Italian": {
+      "Description": "玩家下崽子",
+      "ParameterDescriptions": {
+        "slot": null,
+        "id": null,
+        "count": null
+      }
+    },
+    "German": {
+      "Description": "玩家下崽子",
+      "ParameterDescriptions": {
+        "slot": null,
+        "id": null,
+        "count": null
+      }
+    },
+    "Spanish": {
+      "Description": "玩家下崽子",
+      "ParameterDescriptions": {
+        "slot": null,
+        "id": null,
+        "count": null
+      }
+    },
+    "Russian": {
+      "Description": "玩家下崽子",
+      "ParameterDescriptions": {
+        "slot": null,
+        "id": null,
+        "count": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "玩家下崽子",
+      "ParameterDescriptions": {
+        "slot": null,
+        "id": null,
+        "count": null
+      }
+    },
+    "Polish": {
+      "Description": "玩家下崽子",
+      "ParameterDescriptions": {
+        "slot": null,
+        "id": null,
+        "count": null
+      }
+    },
+    "Japanese": {
+      "Description": "玩家下崽子",
+      "ParameterDescriptions": {
+        "slot": null,
+        "id": null,
+        "count": null
+      }
+    },
+    "Korean": {
+      "Description": "玩家下崽子",
+      "ParameterDescriptions": {
+        "slot": null,
+        "id": null,
+        "count": null
+      }
+    }
+  },
+  "PortableFogTurbine": {
+    "English": {
+      "Description": "切换便携驱雾器",
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": "切换便携驱雾器",
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": "切换便携驱雾器",
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": "切换便携驱雾器",
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": "切换便携驱雾器",
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": "切换便携驱雾器",
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": "切换便携驱雾器",
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": "切换便携驱雾器",
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": "切换便携驱雾器",
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": "切换便携驱雾器",
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": "切换便携驱雾器",
+      "ParameterDescriptions": {}
+    }
+  },
+  "ReactorCodes id all": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "all": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "all": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "all": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "all": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "all": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "all": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "all": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "all": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "all": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "all": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "all": null
+      }
+    }
+  },
+  "ReactorInteraction id interaction progression": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interaction": null,
+        "progression": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interaction": null,
+        "progression": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interaction": null,
+        "progression": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interaction": null,
+        "progression": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interaction": null,
+        "progression": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interaction": null,
+        "progression": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interaction": null,
+        "progression": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interaction": null,
+        "progression": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interaction": null,
+        "progression": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interaction": null,
+        "progression": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "interaction": null,
+        "progression": null
+      }
+    }
+  },
+  "RevealMap": {
+    "English": {
+      "Description": "地图全显",
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": "地图全显",
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": "地图全显",
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": "地图全显",
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": "地图全显",
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": "地图全显",
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": "地图全显",
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": "地图全显",
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": "地图全显",
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": "地图全显",
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": "地图全显",
+      "ParameterDescriptions": {}
+    }
+  },
+  "Revive slot": {
+    "English": {
+      "Description": "复活玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Chinese": {
+      "Description": "复活玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "French": {
+      "Description": "复活玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Italian": {
+      "Description": "复活玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "German": {
+      "Description": "复活玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Spanish": {
+      "Description": "复活玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Russian": {
+      "Description": "复活玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "复活玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Polish": {
+      "Description": "复活玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Japanese": {
+      "Description": "复活玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Korean": {
+      "Description": "复活玩家",
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    }
+  },
+  "ReviveAll": {
+    "English": {
+      "Description": "复活所有玩家",
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": "复活所有玩家",
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": "复活所有玩家",
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": "复活所有玩家",
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": "复活所有玩家",
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": "复活所有玩家",
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": "复活所有玩家",
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": "复活所有玩家",
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": "复活所有玩家",
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": "复活所有玩家",
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": "复活所有玩家",
+      "ParameterDescriptions": {}
+    }
+  },
+  "SetEnemyTarget slot choice": {
+    "English": {
+      "Description": "设置敌人目标",
+      "ParameterDescriptions": {
+        "slot": null,
+        "choice": null
+      }
+    },
+    "Chinese": {
+      "Description": "设置敌人目标",
+      "ParameterDescriptions": {
+        "slot": null,
+        "choice": null
+      }
+    },
+    "French": {
+      "Description": "设置敌人目标",
+      "ParameterDescriptions": {
+        "slot": null,
+        "choice": null
+      }
+    },
+    "Italian": {
+      "Description": "设置敌人目标",
+      "ParameterDescriptions": {
+        "slot": null,
+        "choice": null
+      }
+    },
+    "German": {
+      "Description": "设置敌人目标",
+      "ParameterDescriptions": {
+        "slot": null,
+        "choice": null
+      }
+    },
+    "Spanish": {
+      "Description": "设置敌人目标",
+      "ParameterDescriptions": {
+        "slot": null,
+        "choice": null
+      }
+    },
+    "Russian": {
+      "Description": "设置敌人目标",
+      "ParameterDescriptions": {
+        "slot": null,
+        "choice": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "设置敌人目标",
+      "ParameterDescriptions": {
+        "slot": null,
+        "choice": null
+      }
+    },
+    "Polish": {
+      "Description": "设置敌人目标",
+      "ParameterDescriptions": {
+        "slot": null,
+        "choice": null
+      }
+    },
+    "Japanese": {
+      "Description": "设置敌人目标",
+      "ParameterDescriptions": {
+        "slot": null,
+        "choice": null
+      }
+    },
+    "Korean": {
+      "Description": "设置敌人目标",
+      "ParameterDescriptions": {
+        "slot": null,
+        "choice": null
+      }
+    }
+  },
+  "ShotInAir": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "ShotInAir value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "SilentWeapon": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "SilentWeapon value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "SpawnEnemy id count mode": {
+    "English": {
+      "Description": "生成敌人",
+      "ParameterDescriptions": {
+        "id": null,
+        "count": null,
+        "mode": null
+      }
+    },
+    "Chinese": {
+      "Description": "生成敌人",
+      "ParameterDescriptions": {
+        "id": null,
+        "count": null,
+        "mode": null
+      }
+    },
+    "French": {
+      "Description": "生成敌人",
+      "ParameterDescriptions": {
+        "id": null,
+        "count": null,
+        "mode": null
+      }
+    },
+    "Italian": {
+      "Description": "生成敌人",
+      "ParameterDescriptions": {
+        "id": null,
+        "count": null,
+        "mode": null
+      }
+    },
+    "German": {
+      "Description": "生成敌人",
+      "ParameterDescriptions": {
+        "id": null,
+        "count": null,
+        "mode": null
+      }
+    },
+    "Spanish": {
+      "Description": "生成敌人",
+      "ParameterDescriptions": {
+        "id": null,
+        "count": null,
+        "mode": null
+      }
+    },
+    "Russian": {
+      "Description": "生成敌人",
+      "ParameterDescriptions": {
+        "id": null,
+        "count": null,
+        "mode": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "生成敌人",
+      "ParameterDescriptions": {
+        "id": null,
+        "count": null,
+        "mode": null
+      }
+    },
+    "Polish": {
+      "Description": "生成敌人",
+      "ParameterDescriptions": {
+        "id": null,
+        "count": null,
+        "mode": null
+      }
+    },
+    "Japanese": {
+      "Description": "生成敌人",
+      "ParameterDescriptions": {
+        "id": null,
+        "count": null,
+        "mode": null
+      }
+    },
+    "Korean": {
+      "Description": "生成敌人",
+      "ParameterDescriptions": {
+        "id": null,
+        "count": null,
+        "mode": null
+      }
+    }
+  },
+  "SpawnEnemyByName name count mode": {
+    "English": {
+      "Description": "生成敌人",
+      "ParameterDescriptions": {
+        "name": null,
+        "count": null,
+        "mode": null
+      }
+    },
+    "Chinese": {
+      "Description": "生成敌人",
+      "ParameterDescriptions": {
+        "name": null,
+        "count": null,
+        "mode": null
+      }
+    },
+    "French": {
+      "Description": "生成敌人",
+      "ParameterDescriptions": {
+        "name": null,
+        "count": null,
+        "mode": null
+      }
+    },
+    "Italian": {
+      "Description": "生成敌人",
+      "ParameterDescriptions": {
+        "name": null,
+        "count": null,
+        "mode": null
+      }
+    },
+    "German": {
+      "Description": "生成敌人",
+      "ParameterDescriptions": {
+        "name": null,
+        "count": null,
+        "mode": null
+      }
+    },
+    "Spanish": {
+      "Description": "生成敌人",
+      "ParameterDescriptions": {
+        "name": null,
+        "count": null,
+        "mode": null
+      }
+    },
+    "Russian": {
+      "Description": "生成敌人",
+      "ParameterDescriptions": {
+        "name": null,
+        "count": null,
+        "mode": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "生成敌人",
+      "ParameterDescriptions": {
+        "name": null,
+        "count": null,
+        "mode": null
+      }
+    },
+    "Polish": {
+      "Description": "生成敌人",
+      "ParameterDescriptions": {
+        "name": null,
+        "count": null,
+        "mode": null
+      }
+    },
+    "Japanese": {
+      "Description": "生成敌人",
+      "ParameterDescriptions": {
+        "name": null,
+        "count": null,
+        "mode": null
+      }
+    },
+    "Korean": {
+      "Description": "生成敌人",
+      "ParameterDescriptions": {
+        "name": null,
+        "count": null,
+        "mode": null
+      }
+    }
+  },
+  "SpawnItem id mode": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "mode": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "mode": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "mode": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "mode": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "mode": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "mode": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "mode": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "mode": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "mode": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "mode": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null,
+        "mode": null
+      }
+    }
+  },
+  "SpawnItemByName name mode": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "name": null,
+        "mode": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "name": null,
+        "mode": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "name": null,
+        "mode": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "name": null,
+        "mode": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "name": null,
+        "mode": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "name": null,
+        "mode": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "name": null,
+        "mode": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "name": null,
+        "mode": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "name": null,
+        "mode": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "name": null,
+        "mode": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "name": null,
+        "mode": null
+      }
+    }
+  },
+  "SpawnMine type": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "type": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "type": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "type": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "type": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "type": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "type": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "type": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "type": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "type": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "type": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "type": null
+      }
+    }
+  },
+  "StopAlarms": {
+    "English": {
+      "Description": "停止所有警报",
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": "停止所有警报",
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": "停止所有警报",
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": "停止所有警报",
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": "停止所有警报",
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": "停止所有警报",
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": "停止所有警报",
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": "停止所有警报",
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": "停止所有警报",
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": "停止所有警报",
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": "停止所有警报",
+      "ParameterDescriptions": {}
+    }
+  },
+  "StopEnemyWaves": {
+    "English": {
+      "Description": "停止当前所有刷怪",
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": "停止当前所有刷怪",
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": "停止当前所有刷怪",
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": "停止当前所有刷怪",
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": "停止当前所有刷怪",
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": "停止当前所有刷怪",
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": "停止当前所有刷怪",
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": "停止当前所有刷怪",
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": "停止当前所有刷怪",
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": "停止当前所有刷怪",
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": "停止当前所有刷怪",
+      "ParameterDescriptions": {}
+    }
+  },
+  "StoreCheckPoint": {
+    "English": {
+      "Description": "保存重生点",
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": "保存重生点",
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": "保存重生点",
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": "保存重生点",
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": "保存重生点",
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": "保存重生点",
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": "保存重生点",
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": "保存重生点",
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": "保存重生点",
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": "保存重生点",
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": "保存重生点",
+      "ParameterDescriptions": {}
+    }
+  },
+  "SwapGearInLevel": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "SwapGearInLevel value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "TagEnemy choice": {
+    "English": {
+      "Description": "标记敌人",
+      "ParameterDescriptions": {
+        "choice": null
+      }
+    },
+    "Chinese": {
+      "Description": "标记敌人",
+      "ParameterDescriptions": {
+        "choice": null
+      }
+    },
+    "French": {
+      "Description": "标记敌人",
+      "ParameterDescriptions": {
+        "choice": null
+      }
+    },
+    "Italian": {
+      "Description": "标记敌人",
+      "ParameterDescriptions": {
+        "choice": null
+      }
+    },
+    "German": {
+      "Description": "标记敌人",
+      "ParameterDescriptions": {
+        "choice": null
+      }
+    },
+    "Spanish": {
+      "Description": "标记敌人",
+      "ParameterDescriptions": {
+        "choice": null
+      }
+    },
+    "Russian": {
+      "Description": "标记敌人",
+      "ParameterDescriptions": {
+        "choice": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": "标记敌人",
+      "ParameterDescriptions": {
+        "choice": null
+      }
+    },
+    "Polish": {
+      "Description": "标记敌人",
+      "ParameterDescriptions": {
+        "choice": null
+      }
+    },
+    "Japanese": {
+      "Description": "标记敌人",
+      "ParameterDescriptions": {
+        "choice": null
+      }
+    },
+    "Korean": {
+      "Description": "标记敌人",
+      "ParameterDescriptions": {
+        "choice": null
+      }
+    }
+  },
+  "TeleportToEye": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "TeleportToPlayer slot": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    }
+  },
+  "TerminalListCommands id": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    }
+  },
+  "TerminalListLogs id": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    }
+  },
+  "TerminalPassword id": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    }
+  },
+  "TerminalReadLog id": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    }
+  },
+  "TerminalSendCommand id": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    }
+  },
+  "TerminalUplinkCodes id": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    }
+  },
+  "TerminalUplinkStart id": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "id": null
+      }
+    }
+  },
+  "WallHack": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {}
+    }
+  },
+  "WallHack value": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "value": null
+      }
+    }
+  },
+  "WantToSay playerID eventID inDialogID startDialogID subtitleId": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "playerID": null,
+        "eventID": null,
+        "inDialogID": null,
+        "startDialogID": null,
+        "subtitleId": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "playerID": null,
+        "eventID": null,
+        "inDialogID": null,
+        "startDialogID": null,
+        "subtitleId": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "playerID": null,
+        "eventID": null,
+        "inDialogID": null,
+        "startDialogID": null,
+        "subtitleId": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "playerID": null,
+        "eventID": null,
+        "inDialogID": null,
+        "startDialogID": null,
+        "subtitleId": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "playerID": null,
+        "eventID": null,
+        "inDialogID": null,
+        "startDialogID": null,
+        "subtitleId": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "playerID": null,
+        "eventID": null,
+        "inDialogID": null,
+        "startDialogID": null,
+        "subtitleId": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "playerID": null,
+        "eventID": null,
+        "inDialogID": null,
+        "startDialogID": null,
+        "subtitleId": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "playerID": null,
+        "eventID": null,
+        "inDialogID": null,
+        "startDialogID": null,
+        "subtitleId": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "playerID": null,
+        "eventID": null,
+        "inDialogID": null,
+        "startDialogID": null,
+        "subtitleId": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "playerID": null,
+        "eventID": null,
+        "inDialogID": null,
+        "startDialogID": null,
+        "subtitleId": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "playerID": null,
+        "eventID": null,
+        "inDialogID": null,
+        "startDialogID": null,
+        "subtitleId": null
+      }
+    }
+  },
+  "WarpAllToDimension dimensionIndex": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "dimensionIndex": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "dimensionIndex": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "dimensionIndex": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "dimensionIndex": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "dimensionIndex": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "dimensionIndex": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "dimensionIndex": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "dimensionIndex": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "dimensionIndex": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "dimensionIndex": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "dimensionIndex": null
+      }
+    }
+  },
+  "WarpAllToItem itemName": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "itemName": null
+      }
+    }
+  },
+  "WarpAllToPlayer slot": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    }
+  },
+  "WarpAllToStore key": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "key": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "key": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "key": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "key": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "key": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "key": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "key": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "key": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "key": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "key": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "key": null
+      }
+    }
+  },
+  "WarpStorePos key": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "key": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "key": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "key": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "key": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "key": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "key": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "key": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "key": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "key": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "key": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "key": null
+      }
+    }
+  },
+  "WarpToDimension slot dimensionIndex": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "dimensionIndex": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "dimensionIndex": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "dimensionIndex": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "dimensionIndex": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "dimensionIndex": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "dimensionIndex": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "dimensionIndex": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "dimensionIndex": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "dimensionIndex": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "dimensionIndex": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "dimensionIndex": null
+      }
+    }
+  },
+  "WarpToEye slot": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null
+      }
+    }
+  },
+  "WarpToItem slot itemName": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemName": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemName": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemName": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemName": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemName": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemName": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemName": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemName": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemName": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemName": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "itemName": null
+      }
+    }
+  },
+  "WarpToPlayer slot1 slot2": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot1": null,
+        "slot2": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot1": null,
+        "slot2": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot1": null,
+        "slot2": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot1": null,
+        "slot2": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot1": null,
+        "slot2": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot1": null,
+        "slot2": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot1": null,
+        "slot2": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot1": null,
+        "slot2": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot1": null,
+        "slot2": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot1": null,
+        "slot2": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot1": null,
+        "slot2": null
+      }
+    }
+  },
+  "WarpToStore slot key": {
+    "English": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "key": null
+      }
+    },
+    "Chinese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "key": null
+      }
+    },
+    "French": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "key": null
+      }
+    },
+    "Italian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "key": null
+      }
+    },
+    "German": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "key": null
+      }
+    },
+    "Spanish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "key": null
+      }
+    },
+    "Russian": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "key": null
+      }
+    },
+    "Portuguese_Brazil": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "key": null
+      }
+    },
+    "Polish": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "key": null
+      }
+    },
+    "Japanese": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "key": null
+      }
+    },
+    "Korean": {
+      "Description": null,
+      "ParameterDescriptions": {
+        "slot": null,
+        "key": null
+      }
+    }
+  }
+}

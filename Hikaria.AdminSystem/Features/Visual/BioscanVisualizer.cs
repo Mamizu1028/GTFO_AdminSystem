@@ -8,7 +8,7 @@ using TheArchive.Core.Attributes.Feature.Members;
 using TheArchive.Core.Attributes.Feature.Patches;
 using TheArchive.Core.Attributes.Feature.Settings;
 using TheArchive.Core.FeaturesAPI;
-using TMPro;
+using TheArchive.Core.FeaturesAPI.Groups;
 using UnityEngine;
 
 namespace Hikaria.AdminSystem.Features.Visual
@@ -19,7 +19,7 @@ namespace Hikaria.AdminSystem.Features.Visual
     {
         public override string Name => "生物扫描点位可视化";
 
-        public override FeatureGroup Group => EntryPoint.Groups.Visual;
+        public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Visual");
 
         [FeatureConfig]
         public static BioScanVisualizerSettings Settings { get; set; }
@@ -47,7 +47,6 @@ namespace Hikaria.AdminSystem.Features.Visual
             }
         }
 
-        private static Dictionary<int, TextMeshPro> _textLookup = new();
         private static Camera _camera;
         private static Vector2 _textSize = new Vector2(0.2f, 0.2f);
         private static Quaternion _rotation = Quaternion.LookRotation(Vector3.up);
@@ -68,12 +67,27 @@ namespace Hikaria.AdminSystem.Features.Visual
             private static Color _color = Color.magenta;
             private static Color _colorTScan = Color.gray;
 
+            private static HashSet<CP_Bioscan_Core> _tScans = new();
+
             private static void Postfix(CP_Bioscan_Core __instance, eBioscanStatus status)
             {
-                //if (__instance.IsMovable && (status == eBioscanStatus.Waiting || status == eBioscanStatus.Scanning))
-                //    UnityMainThreadDispatcher.Enqueue(DrawTScan(__instance));
+                if (__instance.IsMovable)
+                {
+                    return;
+                    if (status != eBioscanStatus.Waiting && status != eBioscanStatus.Scanning)
+                        return;
+                    if (!_tScans.Contains(__instance))
+                    {
+                        _tScans.Add(__instance);
+                        UnityMainThreadDispatcher.Enqueue(DrawTScan(__instance));
+                    }
+                    return;
+                }
                 if (status == eBioscanStatus.SplineReveal)
+                {
                     UnityMainThreadDispatcher.Enqueue(DrawBioscan(__instance));
+                    return;
+                }
             }
 
             private static IEnumerator DrawBioscan(CP_Bioscan_Core core)
@@ -123,6 +137,8 @@ namespace Hikaria.AdminSystem.Features.Visual
                     }
                     yield return null;
                 }
+
+                _tScans.Remove(core);
             }
         }
 

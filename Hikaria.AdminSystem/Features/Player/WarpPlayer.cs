@@ -1,16 +1,13 @@
 ﻿using Hikaria.AdminSystem.Features.Item;
-using Hikaria.AdminSystem.Suggestion;
 using Hikaria.AdminSystem.Suggestion.Suggestors.Attributes;
 using Hikaria.AdminSystem.Utilities;
 using Hikaria.AdminSystem.Utility;
 using Hikaria.QC;
 using LevelGeneration;
 using Player;
-using System;
-using System.Collections.Generic;
-using TheArchive.Core.Attributes;
 using TheArchive.Core.Attributes.Feature;
 using TheArchive.Core.FeaturesAPI;
+using TheArchive.Core.FeaturesAPI.Groups;
 using UnityEngine;
 using static Hikaria.AdminSystem.Features.Item.ItemLookup;
 
@@ -25,7 +22,7 @@ namespace Hikaria.AdminSystem.Features.Player
 
         public override string Description => "传送玩家";
 
-        public override FeatureGroup Group => EntryPoint.Groups.Player;
+        public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Player");
 
         private static Dictionary<string, Tuple<eDimensionIndex, Vector3, Vector3>> WarpStoresLookup = new();
 

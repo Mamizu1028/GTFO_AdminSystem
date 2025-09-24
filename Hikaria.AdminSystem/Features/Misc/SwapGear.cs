@@ -7,6 +7,7 @@ using TheArchive.Core.Attributes.Feature.Members;
 using TheArchive.Core.Attributes.Feature.Patches;
 using TheArchive.Core.Attributes.Feature.Settings;
 using TheArchive.Core.FeaturesAPI;
+using TheArchive.Core.FeaturesAPI.Groups;
 
 namespace Hikaria.AdminSystem.Features.Misc
 {
@@ -19,7 +20,7 @@ namespace Hikaria.AdminSystem.Features.Misc
 
         public override string Description => "允许玩家在游戏内更换装备";
 
-        public override FeatureGroup Group => EntryPoint.Groups.Misc;
+        public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Misc");
 
         [FeatureConfig]
         public static SwapGearInLevelSettings Settings { get; set; }

@@ -3,12 +3,12 @@ using Hikaria.AdminSystem.Utilities;
 using Hikaria.QC;
 using Player;
 using SNetwork;
-using TheArchive.Core.Attributes;
 using TheArchive.Core.Attributes.Feature;
 using TheArchive.Core.Attributes.Feature.Members;
 using TheArchive.Core.Attributes.Feature.Patches;
 using TheArchive.Core.Attributes.Feature.Settings;
 using TheArchive.Core.FeaturesAPI;
+using TheArchive.Core.FeaturesAPI.Groups;
 using UnityEngine;
 
 namespace Hikaria.AdminSystem.Features.Player
@@ -34,7 +34,7 @@ namespace Hikaria.AdminSystem.Features.Player
         [Command("MapClickWarp")]
         public static bool _enableMapClickWarp;
 
-        public override FeatureGroup Group => EntryPoint.Groups.Player;
+        public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Player");
 
         [ArchivePatch(typeof(CM_PageMap), nameof(CM_PageMap.DrawWithPixels))]
         public class CM_LagePageMap__DrawWithPixels__Patch

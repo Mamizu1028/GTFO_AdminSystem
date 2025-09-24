@@ -5,7 +5,6 @@ using Gear;
 using Hikaria.AdminSystem.Features.Player;
 using Hikaria.AdminSystem.Managers;
 using Hikaria.AdminSystem.Utility;
-using Hikaria.Core.Features.Fixes;
 using Hikaria.QC;
 using Player;
 using SNetwork;
@@ -30,7 +29,7 @@ namespace Hikaria.AdminSystem.Features.Weapon
 
         public override string Description => "使用枪械时启用自瞄";
 
-        public override FeatureGroup Group => EntryPoint.Groups.Weapon;
+        public override TheArchive.Core.FeaturesAPI.Groups.GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Weapon");
 
         [FeatureConfig]
         public static WeaponAutoAimSettings Settings { get; set; }
@@ -82,11 +81,11 @@ namespace Hikaria.AdminSystem.Features.Weapon
             [FSDescription("默认值为0.1")]
             public float ArmorLimbDamageMultiThreshold
             {
-                get => EnemyDamageDataHelper.ArmorMultiThreshold;
+                get => EnemyDataHelper.ArmorMultiThreshold;
                 set
                 {
-                    EnemyDamageDataHelper.ArmorMultiThreshold = value;
-                    EnemyDamageDataHelper.ClearGeneratedEnemyDamageData();
+                    EnemyDataHelper.ArmorMultiThreshold = value;
+                    EnemyDataHelper.ClearGeneratedEnemyDamageData();
                 }
             }
 
@@ -406,7 +405,7 @@ namespace Hikaria.AdminSystem.Features.Weapon
                     float tempRange = float.MaxValue;
                     foreach (var enemy in m_Owner.EnemyCollision.m_enemies)
                     {
-                        if (DeadBodyFix.IsEnemyDead(enemy) || (force && IsPiercingBullet && m_BulletWeapon.m_damageSearchID > 0U && enemy.Damage.TempSearchID == m_BulletWeapon.m_damageSearchID))
+                        if (force && IsPiercingBullet && m_BulletWeapon.m_damageSearchID > 0U && enemy.Damage.TempSearchID == m_BulletWeapon.m_damageSearchID)
                             continue;
 
                         if (!enemy.Alive || enemy.Damage.Health <= 0f || enemy.Damage.IsImortal)
@@ -456,7 +455,7 @@ namespace Hikaria.AdminSystem.Features.Weapon
                     if (Target == null)
                         return;
 
-                    var data = EnemyDamageDataHelper.GetOrGenerateEnemyDamageData(Target);
+                    var data = EnemyDataHelper.GetOrGenerateEnemyDamageData(Target);
                     if (data.IsImmortal)
                     {
                         if (OneShotKill.OneShotKillLookup.TryGetValue(SNet.LocalPlayer.Lookup, out var enable) && enable)
@@ -581,7 +580,7 @@ namespace Hikaria.AdminSystem.Features.Weapon
                 LastFireDir = dir;
             }
 
-            public bool HasTarget => Target != null && !DeadBodyFix.IsEnemyDead(Target) && TargetLimb != null;
+            public bool HasTarget => Target != null && Target.Damage.Health > 0f && TargetLimb != null;
             public EnemyAgent Target { get; private set; }
             public Dam_EnemyDamageLimb TargetLimb { get; private set; }
             public bool PauseAutoAim => ((!Settings.ReversePauseAutoAim && Input.GetKey(Settings.PauseAutoAimKey)) || (Settings.ReversePauseAutoAim && !Input.GetKey(Settings.PauseAutoAimKey)))

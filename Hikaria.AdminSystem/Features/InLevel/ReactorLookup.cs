@@ -1,13 +1,11 @@
-﻿using Hikaria.AdminSystem.Suggestion;
-using Hikaria.AdminSystem.Utilities;
+﻿using Hikaria.AdminSystem.Utilities;
 using Hikaria.QC;
 using LevelGeneration;
-using System.Collections.Generic;
 using System.Text;
-using TheArchive.Core.Attributes;
 using TheArchive.Core.Attributes.Feature;
 using TheArchive.Core.Attributes.Feature.Patches;
 using TheArchive.Core.FeaturesAPI;
+using TheArchive.Core.FeaturesAPI.Groups;
 
 namespace Hikaria.AdminSystem.Features.InLevel
 {
@@ -20,7 +18,7 @@ namespace Hikaria.AdminSystem.Features.InLevel
     {
         public override string Name => "反应堆";
 
-        public override FeatureGroup Group => EntryPoint.Groups.InLevel;
+        public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("InLevel");
 
         public static Dictionary<int, LG_WardenObjective_Reactor> ReactorsInLevel { get; set; } = new();
 

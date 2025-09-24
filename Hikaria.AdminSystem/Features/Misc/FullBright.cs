@@ -6,6 +6,7 @@ using TheArchive.Core.Attributes.Feature.Members;
 using TheArchive.Core.Attributes.Feature.Patches;
 using TheArchive.Core.Attributes.Feature.Settings;
 using TheArchive.Core.FeaturesAPI;
+using TheArchive.Core.FeaturesAPI.Groups;
 using TheArchive.Core.Models;
 using TheArchive.Utilities;
 
@@ -18,7 +19,7 @@ public class FullBright : Feature
 {
     public override string Name => "地图全亮";
 
-    public override FeatureGroup Group => EntryPoint.Groups.Misc;
+    public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Misc");
 
     [FeatureConfig]
     public static FullBrightSettings Settings { get; set; }

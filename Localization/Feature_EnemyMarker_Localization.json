@@ -1,0 +1,182 @@
+﻿{
+  "Internal": {
+    "FeatureSettingTexts": {
+      "Hikaria.AdminSystem.Features.Enemy.EnemyMarker.Name": {
+        "FName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Enemy.EnemyMarker.Description": {
+        "FDescription": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Enemy.EnemyMarker+EnemyMarkerSettings.EnableEnemyMarker": {
+        "FSDisplayName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Enemy.EnemyMarker+EnemyMarkerSettings.MaxDetectionNodeRange": {
+        "FSDisplayName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Enemy.EnemyMarker+EnemyMarkerSettings.ShowEnemyInfo": {
+        "FSDisplayName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Enemy.EnemyMarker+EnemyMarkerSettings.TransparentWhenAiming": {
+        "FSDisplayName": {
+          "English": null,
+          "Chinese": null,
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      }
+    },
+    "EnumTexts": {
+      "Hikaria.AdminSystem.Features.Enemy.EnemyMarker+EnemyMarkerInfo": {
+        "English": {
+          "Name": "Name",
+          "Health": "Health",
+          "State": "State",
+          "Distance": "Distance",
+          "Target": "Target"
+        },
+        "Chinese": {
+          "Name": "名称",
+          "Health": "血量",
+          "State": "状态",
+          "Distance": "距离",
+          "Target": "目标"
+        },
+        "French": {
+          "Name": null,
+          "Health": null,
+          "State": null,
+          "Distance": null,
+          "Target": null
+        },
+        "Italian": {
+          "Name": null,
+          "Health": null,
+          "State": null,
+          "Distance": null,
+          "Target": null
+        },
+        "German": {
+          "Name": null,
+          "Health": null,
+          "State": null,
+          "Distance": null,
+          "Target": null
+        },
+        "Spanish": {
+          "Name": null,
+          "Health": null,
+          "State": null,
+          "Distance": null,
+          "Target": null
+        },
+        "Russian": {
+          "Name": null,
+          "Health": null,
+          "State": null,
+          "Distance": null,
+          "Target": null
+        },
+        "Portuguese_Brazil": {
+          "Name": null,
+          "Health": null,
+          "State": null,
+          "Distance": null,
+          "Target": null
+        },
+        "Polish": {
+          "Name": null,
+          "Health": null,
+          "State": null,
+          "Distance": null,
+          "Target": null
+        },
+        "Japanese": {
+          "Name": null,
+          "Health": null,
+          "State": null,
+          "Distance": null,
+          "Target": null
+        },
+        "Korean": {
+          "Name": null,
+          "Health": null,
+          "State": null,
+          "Distance": null,
+          "Target": null
+        }
+      }
+    }
+  },
+  "External": {
+    "FeatureSettingTexts": {},
+    "EnumTexts": {}
+  },
+  "GenericText": {}
+}
