@@ -67,18 +67,17 @@ namespace Hikaria.AdminSystem.Features.Visual
             private static Color _color = Color.magenta;
             private static Color _colorTScan = Color.gray;
 
-            private static HashSet<CP_Bioscan_Core> _tScans = new();
+            private static HashSet<int> _tScans = new();
 
             private static void Postfix(CP_Bioscan_Core __instance, eBioscanStatus status)
             {
                 if (__instance.IsMovable)
                 {
-                    return;
                     if (status != eBioscanStatus.Waiting && status != eBioscanStatus.Scanning)
                         return;
-                    if (!_tScans.Contains(__instance))
+                    if (!_tScans.Contains(__instance.GetInstanceID()))
                     {
-                        _tScans.Add(__instance);
+                        _tScans.Add(__instance.GetInstanceID());
                         UnityMainThreadDispatcher.Enqueue(DrawTScan(__instance));
                     }
                     return;
@@ -138,7 +137,7 @@ namespace Hikaria.AdminSystem.Features.Visual
                     yield return null;
                 }
 
-                _tScans.Remove(core);
+                _tScans.Remove(core.GetInstanceID());
             }
         }
 

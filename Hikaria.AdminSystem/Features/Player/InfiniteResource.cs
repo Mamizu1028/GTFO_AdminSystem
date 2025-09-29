@@ -2,7 +2,6 @@
 using Hikaria.AdminSystem.Utilities;
 using Hikaria.AdminSystem.Utility;
 using Hikaria.Core;
-using Hikaria.Core.Interfaces;
 using Hikaria.QC;
 using Player;
 using SNetwork;
@@ -17,7 +16,7 @@ namespace Hikaria.AdminSystem.Features.Player
     [EnableFeatureByDefault]
     [DisallowInGameToggle]
     [HideInModSettings]
-    public class InfiniteResource : Feature, IOnSessionMemberChanged
+    public class InfiniteResource : Feature
     {
         public override string Name => "无限资源";
 
@@ -33,9 +32,14 @@ namespace Hikaria.AdminSystem.Features.Player
             public bool ForceDeploy { get; set; }
         }
 
-        public override void Init()
+        public override void OnEnable()
         {
-            GameEventAPI.RegisterListener(this);
+            SNetEventAPI.OnSessionMemberChanged += OnSessionMemberChanged;
+        }
+
+        public override void OnDisable()
+        {
+            SNetEventAPI.OnSessionMemberChanged -= OnSessionMemberChanged;
         }
 
         [Command("InfResource", "无限资源")]

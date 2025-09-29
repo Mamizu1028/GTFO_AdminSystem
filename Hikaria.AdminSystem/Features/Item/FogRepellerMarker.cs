@@ -15,7 +15,7 @@ using UnityEngine;
 
 namespace Hikaria.AdminSystem.Features.Item
 {
-    public class FogRepellerMarker : Feature, IOnRecallComplete, IOnSessionMemberChanged
+    public class FogRepellerMarker : Feature
     {
         public override string Name => "驱雾器标记";
 
@@ -45,14 +45,11 @@ namespace Hikaria.AdminSystem.Features.Item
             public bool ShowStateTimer { get; set; } = true;
         }
 
-        public override void Init()
-        {
-            GameEventAPI.RegisterListener(this);
-        }
-
-
         public override void OnEnable()
         {
+            SNetEventAPI.OnSessionMemberChanged += OnSessionMemberChanged;
+            SNetEventAPI.OnRecallComplete += OnRecallComplete;
+
             if (CurrentGameState != (int)eGameStateName.InLevel)
                 return;
             _fogRepellerInstances = GameObject.FindObjectsOfType<FogRepellerInstance>().ToArray().Where(fri => fri.name != "Consumable_Fogrepeller_Instance").ToList();
@@ -65,6 +62,9 @@ namespace Hikaria.AdminSystem.Features.Item
 
         public override void OnDisable()
         {
+            SNetEventAPI.OnSessionMemberChanged -= OnSessionMemberChanged;
+            SNetEventAPI.OnRecallComplete -= OnRecallComplete;
+
             if (CurrentGameState != (int)eGameStateName.InLevel)
                 return;
 

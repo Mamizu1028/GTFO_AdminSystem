@@ -41,8 +41,9 @@ namespace Hikaria.AdminSystem.Features.Player
         {
             foreach (var player in PlayerManager.PlayerAgentsInLevel)
             {
-                if (player.PlayerSlotIndex != slot)
-                    WarpPlayerToPlayer(player.PlayerSlotIndex, slot);
+                var index = player.PlayerSlotIndex + 1;
+                if (index != slot)
+                    WarpPlayerToPlayer(index, slot);
             }
         }
 
@@ -74,7 +75,7 @@ namespace Hikaria.AdminSystem.Features.Player
         {
             foreach (var player in PlayerManager.PlayerAgentsInLevel)
             {
-                WarpPlayerToStoredPos(player.PlayerSlotIndex, key);
+                WarpPlayerToStoredPos(player.PlayerSlotIndex + 1, key);
             }
 
         }

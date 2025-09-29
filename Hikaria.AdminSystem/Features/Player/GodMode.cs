@@ -3,7 +3,6 @@ using Hikaria.AdminSystem.Suggestion.Suggestors.Attributes;
 using Hikaria.AdminSystem.Utilities;
 using Hikaria.AdminSystem.Utility;
 using Hikaria.Core;
-using Hikaria.Core.Interfaces;
 using Hikaria.QC;
 using Player;
 using SNetwork;
@@ -17,7 +16,7 @@ namespace Hikaria.AdminSystem.Features.Player
     [EnableFeatureByDefault]
     [DisallowInGameToggle]
     [HideInModSettings]
-    public class GodMode : Feature, IOnSessionMemberChanged
+    public class GodMode : Feature
     {
         public override string Name => "无敌模式";
 
@@ -34,9 +33,14 @@ namespace Hikaria.AdminSystem.Features.Player
             public bool CannotDie { get; set; }
         }
 
-        public override void Init()
+        public override void OnEnable()
         {
-            GameEventAPI.RegisterListener(this);
+            SNetEventAPI.OnSessionMemberChanged += OnSessionMemberChanged;
+        }
+
+        public override void OnDisable()
+        {
+            SNetEventAPI.OnSessionMemberChanged -= OnSessionMemberChanged;
         }
 
         [Command("IgnoreAllDamage")]

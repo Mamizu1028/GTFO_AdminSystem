@@ -4,7 +4,6 @@ using Hikaria.AdminSystem.Suggestion.Suggestors.Attributes;
 using Hikaria.AdminSystem.Utilities;
 using Hikaria.AdminSystem.Utility;
 using Hikaria.Core;
-using Hikaria.Core.Interfaces;
 using Hikaria.QC;
 using Player;
 using SNetwork;
@@ -18,7 +17,7 @@ namespace Hikaria.AdminSystem.Features.Player
     [EnableFeatureByDefault]
     [DisallowInGameToggle]
     [HideInModSettings]
-    public class OneShotKill : Feature, IOnSessionMemberChanged
+    public class OneShotKill : Feature
     {
         public override string Name => "秒杀";
 
@@ -29,9 +28,14 @@ namespace Hikaria.AdminSystem.Features.Player
 
         public static Dictionary<ulong, bool> OneShotKillLookup = new();
 
-        public override void Init()
+        public override void OnEnable()
         {
-            GameEventAPI.RegisterListener(this);
+            SNetEventAPI.OnSessionMemberChanged += OnSessionMemberChanged;
+        }
+
+        public override void OnDisable()
+        {
+            SNetEventAPI.OnSessionMemberChanged -= OnSessionMemberChanged;
         }
 
         [Command("OneShotKill", "一击必杀")]

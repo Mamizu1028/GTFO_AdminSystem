@@ -25,7 +25,7 @@ namespace Hikaria.AdminSystem.Features.Enemy
     [EnableFeatureByDefault]
     [DisallowInGameToggle]
     [DoNotSaveToConfig]
-    internal class EnemyMarker : Feature, IOnSessionMemberChanged, IOnRecallComplete
+    internal class EnemyMarker : Feature
     {
         public override string Name => "敌人标记";
 
@@ -84,8 +84,19 @@ namespace Hikaria.AdminSystem.Features.Enemy
 
         public override void Init()
         {
-            GameEventAPI.RegisterListener(this);
             LoaderWrapper.ClassInjector.RegisterTypeInIl2Cpp<EnemyMarkerHandler>();
+        }
+
+        public override void OnEnable()
+        {
+            SNetEventAPI.OnSessionMemberChanged += OnSessionMemberChanged;
+            SNetEventAPI.OnRecallComplete += OnRecallComplete;
+        }
+
+        public override void OnDisable()
+        {
+            SNetEventAPI.OnSessionMemberChanged -= OnSessionMemberChanged;
+            SNetEventAPI.OnRecallComplete -= OnRecallComplete;
         }
 
         [ArchivePatch(typeof(LocalPlayerAgent), nameof(LocalPlayerAgent.Setup))]
