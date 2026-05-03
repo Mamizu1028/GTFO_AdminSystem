@@ -14,7 +14,8 @@ public class LG_WardenObjective_ReactorSuggestion : IQcSuggestion
     public LG_WardenObjective_ReactorSuggestion(LG_WardenObjective_Reactor reactor)
     {
         FullSignature = $"REACTOR_{reactor.m_serialNumber}";
-        SecondarySignature = $" ZONE_{reactor.SpawnNode.m_zone.Alias}, {reactor.m_currentState.status}";
+        PrimarySignature = $"REACTOR_{reactor.m_serialNumber}";
+        SecondarySignature = $" {reactor.SpawnNode.m_dimension.CreationOrderIndex} ZONE_{reactor.SpawnNode.m_zone.Alias} {reactor.m_currentState.status}";
         _completion = $"REACTOR_{reactor.m_serialNumber}";
     }
 

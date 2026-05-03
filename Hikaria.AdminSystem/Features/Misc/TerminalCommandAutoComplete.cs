@@ -65,23 +65,6 @@ public class TerminalCommandAutoComplete : Feature
                     break;
                 switch (input[1])
                 {
-                    case "REACTOR_VERIFY":
-                        var reactor = terminal.ConnectedReactor;
-                        var state = reactor?.m_currentState.status ?? eReactorStatus.Inactive_Idle;
-                        if (reactor == null || state != eReactorStatus.Startup_waitForVerify && state != eReactorStatus.Shutdown_waitForVerify)
-                            break;
-                        var code = reactor.GetOverrideCodes()[reactor.m_currentWaveCount - 1].ToUpperInvariant();
-                        LG_ComputerTerminalManager.WantToSendTerminalCommand(terminal.SyncID, TERM_Command.ReactorVerify, $"{command.m_commandsPerEnum[TERM_Command.ReactorVerify].ToUpperInvariant()} {code}",
-                            code, string.Empty);
-                        return true;
-                    case "UPLINK_VERIFY":
-                        var puzzle = terminal.UplinkPuzzle;
-                        if (puzzle == null || puzzle.Solved)
-                            break;
-                        LG_ComputerTerminalManager.WantToSendTerminalCommand(terminal.SyncID, TERM_Command.ReactorVerify,
-                            $"{command.m_commandsPerEnum[TERM_Command.ReactorVerify].ToUpperInvariant()} {puzzle.CurrentRound.CorrectCode.ToUpperInvariant()}",
-                           puzzle.CurrentRound.CorrectCode.ToUpperInvariant(), string.Empty);
-                        return true;
                     case "UPLINK_COMPLETE":
                         var puzzle1 = terminal.UplinkPuzzle;
                         if (puzzle1 == null || puzzle1.Solved)

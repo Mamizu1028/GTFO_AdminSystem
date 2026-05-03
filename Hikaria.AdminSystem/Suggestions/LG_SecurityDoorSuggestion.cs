@@ -12,7 +12,7 @@ public class LG_SecurityDoorSuggestion : IQcSuggestion
         _completion = $"SEC_DOOR_{door.m_serialNumber}";
         PrimarySignature = $"SEC_DOOR_{door.m_serialNumber} {door.Gate.DimensionIndex} ZONE_{door.LinkedToZoneData.Alias}";
         FullSignature = PrimarySignature;
-        SecondarySignature = $" 位于象限 {door.Gate.DimensionIndex} 通往 ZONE_{door.LinkedToZoneData.Alias}";
+        SecondarySignature = $" {door.Gate.DimensionIndex} ZONE_{door.LinkedToZoneData.Alias}";
     }
     
 

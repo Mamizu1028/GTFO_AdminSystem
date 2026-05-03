@@ -11,9 +11,9 @@ public class LG_WeakDoorSuggestion : IQcSuggestion
     {
         _completion = $"DOOR_{door.m_serialNumber}";
 
-        PrimarySignature = $"DOOR_{door.m_serialNumber} {door.Gate.DimensionIndex} ZONE_{door.Gate.m_linksFrom.m_zone.Alias} Area_{door.Gate.m_linksFrom.m_navInfo.Suffix} Area_{door.Gate.m_linksTo.m_navInfo.Suffix}";
+        PrimarySignature = $"DOOR_{door.m_serialNumber} {door.Gate.DimensionIndex} ZONE_{door.Gate.m_linksFrom.m_zone.Alias}";
         FullSignature = _completion;
-        SecondarySignature = $" 位于象限 {door.Gate.DimensionIndex} ZONE_{door.Gate.m_linksFrom.m_zone.Alias} 连接 Area_{door.Gate.m_linksFrom.m_navInfo.Suffix} 和 Area_{door.Gate.m_linksTo.m_navInfo.Suffix}";
+        SecondarySignature = $" Area_{door.Gate.m_linksFrom.m_navInfo.Suffix} Area_{door.Gate.m_linksTo.m_navInfo.Suffix}";
     }
 
     public string FullSignature { get; }

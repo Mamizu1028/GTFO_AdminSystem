@@ -309,7 +309,14 @@ public class MiscCommandsHolder : Feature
     {
         if (enemy.EnemyBehaviorData.IsFlyer)
         {
-            enemy.Locomotion.Hitreact.Cast<ES_HitreactFlyer>().m_hitreactPacket.Send(deathFlyerHitreactData, SNet_ChannelType.GameReceiveCritical, SNet.Master);
+            var hitreactFlyer = enemy.Locomotion.Hitreact.TryCast<ES_HitreactFlyer>();
+            if (hitreactFlyer != null)
+            {
+                hitreactFlyer.m_hitreactPacket.Send(deathFlyerHitreactData, SNet_ChannelType.GameReceiveCritical, SNet.Master);
+                return;
+            }
+            var hitreact = enemy.Locomotion.Hitreact.Cast<ES_Hitreact>();
+            hitreact.m_hitreactPacket.Send(deathHitreactData, SNet_ChannelType.GameReceiveCritical, SNet.Master);
         }
         else
         {

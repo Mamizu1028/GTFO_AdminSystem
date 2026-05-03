@@ -13,7 +13,7 @@ public sealed class LG_ZoneSuggestion : IQcSuggestion
 
         PrimarySignature = _completion;
         FullSignature = PrimarySignature;
-        SecondarySignature = $" 位于象限 {zone.DimensionIndex} ZONE_{zone.Alias}";
+        SecondarySignature = $" {zone.DimensionIndex} ZONE_{zone.Alias}";
     }
 
     public string FullSignature { get; }
