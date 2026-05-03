@@ -3,7 +3,7 @@ using Enemies;
 using GameData;
 using Gear;
 using Hikaria.AdminSystem.Features.Player;
-using Hikaria.AdminSystem.Managers;
+using Hikaria.AdminSystem.Utilities;
 using Hikaria.AdminSystem.Utility;
 using Hikaria.QC;
 using Player;

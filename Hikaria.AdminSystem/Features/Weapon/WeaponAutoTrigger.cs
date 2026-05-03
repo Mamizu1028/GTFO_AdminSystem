@@ -2,7 +2,7 @@
 using Enemies;
 using GameData;
 using Gear;
-using Hikaria.AdminSystem.Managers;
+using Hikaria.AdminSystem.Utilities;
 using Hikaria.AdminSystem.Utility;
 using Hikaria.QC;
 using TheArchive.Core.Attributes.Feature;
@@ -91,7 +91,7 @@ namespace Hikaria.AdminSystem.Features.Weapon
             //NormalOnly = 2
         }
 
-        private static CustomSetting<Dictionary<uint, WeaponAutoTriggerPreference>> PreferencesLookup = new("WeaponAutoTriggerPreferences.json", new());
+        private static CustomSetting<Dictionary<uint, WeaponAutoTriggerPreference>> PreferencesLookup = new("WeaponAutoTriggerPreferences", new());
 
         public class WeaponAutoTriggerPreference
         {

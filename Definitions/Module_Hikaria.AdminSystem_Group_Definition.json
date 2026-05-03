@@ -30,6 +30,38 @@
     },
     "SubGroups": [
       {
+        "Name": "Accessibility",
+        "IsHidden": false,
+        "LocalizationData": {
+          "DisplayName": {
+            "English": "Accessibility",
+            "Chinese": "辅助功能",
+            "French": null,
+            "Italian": null,
+            "German": null,
+            "Spanish": null,
+            "Russian": null,
+            "Portuguese_Brazil": null,
+            "Polish": null,
+            "Japanese": null,
+            "Korean": null
+          },
+          "Description": {
+            "English": null,
+            "Chinese": null,
+            "French": null,
+            "Italian": null,
+            "German": null,
+            "Spanish": null,
+            "Russian": null,
+            "Portuguese_Brazil": null,
+            "Polish": null,
+            "Japanese": null,
+            "Korean": null
+          }
+        }
+      },
+      {
         "Name": "Enemy",
         "IsHidden": false,
         "LocalizationData": {

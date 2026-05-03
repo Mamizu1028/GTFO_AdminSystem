@@ -1,0 +1,84 @@
+﻿using Enemies;
+using GameData;
+
+namespace Hikaria.AdminSystem.Utilities;
+
+public static class EnemyDataHelper
+{
+    public static Dictionary<uint, EnemyDamageData> EnemyDamageDataLookup { get; set; } = new();
+
+    public static float ArmorMultiThreshold { get; set; } = 0.1f;
+
+    public static EnemyDamageData GetOrGenerateEnemyDamageData(EnemyAgent enemy)
+    {
+        if (!EnemyDamageDataLookup.TryGetValue(enemy.EnemyDataID, out var data))
+        {
+            return GenerateAndStoreEnemyDamageData(enemy);
+        }
+        return data;
+    }
+
+    private static EnemyDamageData GenerateAndStoreEnemyDamageData(EnemyAgent enemy)
+    {
+        EnemyDamageData data = new();
+        data.Id = enemy.EnemyDataID;
+        foreach (var limb in enemy.Damage.DamageLimbs)
+        {
+            switch (limb.m_type)
+            {
+                case eLimbDamageType.Armor:
+                    if (limb.m_armorDamageMulti <= ArmorMultiThreshold)
+                        data.RealArmorSpots.Add(limb.m_limbID, limb.m_armorDamageMulti);
+                    else
+                        data.Armorspots.Add(limb.m_limbID, limb.m_armorDamageMulti);
+                    break;
+                case eLimbDamageType.Weakspot:
+                    data.Weakspots.Add(limb.m_limbID, limb.m_weakspotDamageMulti);
+                    break;
+                case eLimbDamageType.Normal:
+                    data.Normalspots.Add(limb.m_limbID, 1f);
+                    break;
+            }
+        }
+        data.Armorspots = data.Armorspots.OrderByDescending(p => p.Value).ToDictionary(p => p.Key, p => p.Value);
+        data.Weakspots = data.Weakspots.OrderByDescending(p => p.Value).ToDictionary(p => p.Key, p => p.Value);
+        data.IsImmortal = data.RealArmorSpots.Count == enemy.Damage.DamageLimbs.Count;
+        EnemyDamageDataLookup.Add(enemy.EnemyDataID, data);
+        return data;
+    }
+
+    public static void ClearGeneratedEnemyDamageData()
+    {
+        EnemyDamageDataLookup.Clear();
+    }
+
+    public struct EnemyDamageData
+    {
+        public EnemyDamageData()
+        {
+            Id = 0;
+            IsImmortal = false;
+            Weakspots = new();
+            Normalspots = new();
+            Armorspots = new();
+            RealArmorSpots = new();
+        }
+
+        public uint Id { get; set; }
+
+        public bool IsImmortal { get; set; }
+
+        public Dictionary<int, float> Weakspots { get; set; }
+        public Dictionary<int, float> Normalspots { get; set; }
+        public Dictionary<int, float> Armorspots { get; set; }
+        public Dictionary<int, float> RealArmorSpots { get; set; }
+
+        public bool HasWeakSpot => Weakspots.Count > 0;
+
+        public bool HasNormalSpot => Normalspots.Count > 0;
+
+        public bool HasArmorSpot => Armorspots.Count > 0;
+
+        public bool HasRealArmorSpot => RealArmorSpots.Count > 0;
+    }
+}

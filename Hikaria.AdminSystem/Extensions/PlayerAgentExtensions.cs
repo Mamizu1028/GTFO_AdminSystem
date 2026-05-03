@@ -1,4 +1,6 @@
-﻿using Enemies;
+﻿using Agents;
+using Enemies;
+using Hikaria.QC.Utilities;
 using Player;
 using UnityEngine;
 
@@ -16,7 +18,8 @@ namespace Hikaria.AdminSystem.Extensions
 
         public static bool CanSeeObject(this PlayerAgent player, GameObject targetObj, out RaycastHit hit)
         {
-            return player.Raycast(targetObj.transform.position, LayerManager.MASK_WORLD, out hit) && hit.collider.transform.IsChildOf(targetObj.transform);
+            return player.Raycast(targetObj.transform.position, LayerManager.MASK_WORLD, out hit) 
+                && hit.collider.transform.IsChildOf(targetObj.transform);
         }
 
         public static bool CanSeeEnemyNormal(this PlayerAgent player, EnemyAgent enemy)
@@ -39,7 +42,13 @@ namespace Hikaria.AdminSystem.Extensions
 
         public static bool CanFireHitObject(this PlayerAgent player, GameObject targetObj)
         {
-            return player.Raycast(targetObj.transform.position, LayerManager.MASK_BULLETWEAPON_RAY, out var hit) && hit.transform.IsChildOf(targetObj.gameObject.transform);
+            return player.Raycast(targetObj.transform.position, LayerManager.MASK_BULLETWEAPON_RAY, out var hit) 
+                && hit.transform.IsChildOf(targetObj.gameObject.transform);
+        }
+
+        public static string GetColoredNameWithoutRichTextTags(this PlayerAgent player)
+        {
+            return $"<color=#{ColorExt.ToHex(player.Owner.PlayerColor)}>{player.PlayerName.RemoveRichTextTags()}</color>";
         }
     }
 }

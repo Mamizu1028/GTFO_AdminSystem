@@ -7,7 +7,6 @@ namespace Hikaria.AdminSystem;
 
 [ArchiveDependency(ItemMarker.PluginInfo.GUID)]
 [ArchiveDependency(QC.QuantumGlobal.GUID)]
-[ArchiveDependency(QC.QuantumGlobal.GUID)]
 [ArchiveModule(PluginInfo.GUID, PluginInfo.NAME, PluginInfo.VERSION)]
 public class EntryPoint : IArchiveModule
 {

@@ -1,4 +1,5 @@
 ﻿using CellMenu;
+using Hikaria.AdminSystem.Extensions;
 using Hikaria.AdminSystem.Utilities;
 using Hikaria.QC;
 using Player;
@@ -11,53 +12,52 @@ using TheArchive.Core.FeaturesAPI;
 using TheArchive.Core.FeaturesAPI.Groups;
 using UnityEngine;
 
-namespace Hikaria.AdminSystem.Features.Player
+namespace Hikaria.AdminSystem.Features.Player;
+
+[EnableFeatureByDefault]
+[DisallowInGameToggle]
+[DoNotSaveToConfig]
+public class MapClickWarp : Feature
 {
-    [EnableFeatureByDefault]
-    [DisallowInGameToggle]
-    [DoNotSaveToConfig]
-    public class MapClickWarp : Feature
+    public override string Name => "地图点击传送";
+
+    public override string Description => "玩家通过点击地图传送到点击位置";
+
+    [FeatureConfig]
+    public static MapClickWarpSettings Settings { get; set; }
+
+    public class MapClickWarpSettings
     {
-        public override string Name => "地图点击传送";
+        [FSDisplayName("地图点击传送")]
+        public bool EnableMapClickWarp { get => _enableMapClickWarp; set => _enableMapClickWarp = value; }
+    }
 
-        public override string Description => "玩家通过点击地图传送到点击位置";
+    [Command("MapClickWarp")]
+    public static bool _enableMapClickWarp;
 
-        [FeatureConfig]
-        public static MapClickWarpSettings Settings { get; set; }
+    public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Player");
 
-        public class MapClickWarpSettings
+    [ArchivePatch(typeof(CM_PageMap), nameof(CM_PageMap.DrawWithPixels))]
+    public class CM_LagePageMap__DrawWithPixels__Patch
+    {
+        private static void Postfix(SNet_Player player, Vector2 pos)
         {
-            [FSDisplayName("地图点击传送")]
-            public bool EnableMapClickWarp { get => _enableMapClickWarp; set => _enableMapClickWarp = value; }
+            if (!_enableMapClickWarp)
+                return;
+            PlayerAgent playerAgent = player.PlayerAgent.Cast<PlayerAgent>();
+            Vector3 vector;
+            vector = new Vector3(pos.x / CM_PageMap.WorldToUIDisScale, playerAgent.Position.y, pos.y / CM_PageMap.WorldToUIDisScale);
+            playerAgent.RequestWarpToSync(playerAgent.DimensionIndex, vector, playerAgent.TargetLookDir, PlayerAgent.WarpOptions.ShowScreenEffectForLocal);
+            ConsoleLogs.LogToConsole($"<color=orange>{playerAgent.GetColoredNameWithoutRichTextTags()} 已传送至 ({(int)vector.x},{(int)vector.y},{(int)vector.z})</color>");
         }
+    }
 
-        [Command("MapClickWarp")]
-        public static bool _enableMapClickWarp;
-
-        public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Player");
-
-        [ArchivePatch(typeof(CM_PageMap), nameof(CM_PageMap.DrawWithPixels))]
-        public class CM_LagePageMap__DrawWithPixels__Patch
+    public override void OnGameStateChanged(int state)
+    {
+        eGameStateName current = (eGameStateName)state;
+        if (current == eGameStateName.AfterLevel)
         {
-            private static void Postfix(SNet_Player player, Vector2 pos)
-            {
-                if (!_enableMapClickWarp)
-                    return;
-                PlayerAgent playerAgent = player.PlayerAgent.Cast<PlayerAgent>();
-                Vector3 vector;
-                vector = new Vector3(pos.x / CM_PageMap.WorldToUIDisScale, playerAgent.Position.y, pos.y / CM_PageMap.WorldToUIDisScale);
-                playerAgent.RequestWarpToSync(playerAgent.DimensionIndex, vector, playerAgent.TargetLookDir, PlayerAgent.WarpOptions.ShowScreenEffectForLocal);
-                ConsoleLogs.LogToConsole($"<color=orange>{playerAgent.PlayerName} 已传送至 ({(int)vector.x},{(int)vector.y},{(int)vector.z})</color>");
-            }
-        }
-
-        public override void OnGameStateChanged(int state)
-        {
-            eGameStateName current = (eGameStateName)state;
-            if (current == eGameStateName.AfterLevel)
-            {
-                _enableMapClickWarp = false;
-            }
+            _enableMapClickWarp = false;
         }
     }
 }

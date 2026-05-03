@@ -7,41 +7,38 @@ using TheArchive.Core.Attributes.Feature.Settings;
 using TheArchive.Core.FeaturesAPI;
 using TheArchive.Core.FeaturesAPI.Groups;
 
-namespace Hikaria.AdminSystem.Features.Misc
+namespace Hikaria.AdminSystem.Features.Misc;
+
+[EnableFeatureByDefault]
+[DisallowInGameToggle]
+[DoNotSaveToConfig]
+public class ShotInAir : Feature
 {
-    [EnableFeatureByDefault]
-    [DisallowInGameToggle]
-    [DoNotSaveToConfig]
-    public class ShotInAir : Feature
+    public override string Name => "空中开枪";
+
+    public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Misc");
+
+    [FeatureConfig]
+    public static ShotInAirSettings Settings { get; set; }
+
+    public class ShotInAirSettings
     {
-        public override string Name => "空中开枪";
+        [FSDisplayName("空中开枪")]
+        public bool EnableShotInAir { get => _enableShotInAir; set => _enableShotInAir = value; }
+    }
 
-        public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Misc");
+    [Command("ShotInAir")]
+    private static bool _enableShotInAir;
 
-        [FeatureConfig]
-        public static ShotInAirSettings Settings { get; set; }
-
-        public class ShotInAirSettings
+    [ArchivePatch(typeof(PlayerLocomotion), nameof(PlayerLocomotion.IsInAir), null, ArchivePatch.PatchMethodType.Getter)]
+    private class PlayerLocomotion__IsInAir__Patch
+    {
+        private static void Postfix(PlayerLocomotion __instance, ref bool __result)
         {
-            [FSDisplayName("空中开枪")]
-            public bool EnableShotInAir { get => _enableShotInAir; set => _enableShotInAir = value; }
-        }
+            if (!__instance.m_owner.IsLocallyOwned || !_enableShotInAir)
+                return;
 
-        [Command("ShotInAir")]
-        private static bool _enableShotInAir;
-
-        [ArchivePatch(typeof(PlayerLocomotion), nameof(PlayerLocomotion.IsInAir), null, ArchivePatch.PatchMethodType.Getter)]
-        private class PlayerLocomotion__IsInAir__Patch
-        {
-            private static bool Prefix(PlayerLocomotion __instance, ref bool __result)
-            {
-                if (!__instance.m_owner.Owner.IsLocal || !_enableShotInAir)
-                {
-                    return true;
-                }
-                __result = false;
-                return false;
-            }
+            __result = false;
         }
     }
 }

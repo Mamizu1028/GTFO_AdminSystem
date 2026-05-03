@@ -6,62 +6,61 @@ using TheArchive.Core.Attributes.Feature.Settings;
 using TheArchive.Core.FeaturesAPI;
 using TheArchive.Core.FeaturesAPI.Groups;
 
-namespace Hikaria.AdminSystem.Features.Player
+namespace Hikaria.AdminSystem.Features.Player;
+
+[DoNotSaveToConfig]
+[EnableFeatureByDefault]
+[DisallowInGameToggle]
+internal class DisableStamina : Feature
 {
-    [DoNotSaveToConfig]
-    [EnableFeatureByDefault]
-    [DisallowInGameToggle]
-    internal class DisableStamina : Feature
+    public override string Name => "禁用心率系统";
+
+    public override string Description => "启用以禁用心率系统";
+
+    public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Player");
+
+    [FeatureConfig]
+    public static DisableStaminaSettings Settings { get; set; }
+
+    public class DisableStaminaSettings
     {
-        public override string Name => "禁用心率系统";
+        [FSDisplayName("禁用心率")]
+        public bool DisableStaminaSystem { get => _disableStaminaSystem; set => _disableStaminaSystem = value; }
 
-        public override string Description => "启用以禁用心率系统";
+        [FSDisplayName("禁用附近敌人对自身移动速度的影响")]
+        public bool DisableNearByEnemyMoveSpeedMultiplier { get => _disableNearByEnemyMoveSpeedMultiplier; set => _disableNearByEnemyMoveSpeedMultiplier = value; }
+    }
 
-        public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Player");
+    [Command("DisableStamina")]
+    private static bool _disableStaminaSystem;
 
-        [FeatureConfig]
-        public static DisableStaminaSettings Settings { get; set; }
+    [Command("NearbyEnemyMoveSpeedMultiplier")]
+    private static bool _disableNearByEnemyMoveSpeedMultiplier;
 
-        public class DisableStaminaSettings
+    [ArchivePatch(typeof(PlayerStamina), nameof(PlayerStamina.LateUpdate))]
+    private class PlayerStamina__LateUpdate__Patch
+    {
+        private static void Postfix(PlayerStamina __instance)
         {
-            [FSDisplayName("禁用心率")]
-            public bool DisableStaminaSystem { get => _disableStaminaSystem; set => _disableStaminaSystem = value; }
-
-            [FSDisplayName("禁用附近敌人对自身移动速度的影响")]
-            public bool DisableNearByEnemyMoveSpeedMultiplier { get => _disableNearByEnemyMoveSpeedMultiplier; set => _disableNearByEnemyMoveSpeedMultiplier = value; }
-        }
-
-        [Command("DisableStamina")]
-        private static bool _disableStaminaSystem;
-
-        [Command("NearbyEnemyMoveSpeedMultiplier")]
-        private static bool _disableNearByEnemyMoveSpeedMultiplier;
-
-        [ArchivePatch(typeof(PlayerStamina), nameof(PlayerStamina.LateUpdate))]
-        private class PlayerStamina__LateUpdate__Patch
-        {
-            private static void Postfix(PlayerStamina __instance)
+            if (__instance.m_owner.IsLocallyOwned && _disableStaminaSystem)
             {
-                if (__instance.m_owner.IsLocallyOwned && _disableStaminaSystem)
-                {
-                    __instance.ResetStamina();
-                }
+                __instance.ResetStamina();
             }
         }
+    }
 
-        [ArchivePatch(typeof(PlayerEnemyCollision), nameof(PlayerEnemyCollision.FindNearbyEnemiesMovementReduction))]
-        private class PlayerEnemyCollision_FindNearbyEnemiesMovementReduction_Patch
+    [ArchivePatch(typeof(PlayerEnemyCollision), nameof(PlayerEnemyCollision.FindNearbyEnemiesMovementReduction))]
+    private class PlayerEnemyCollision_FindNearbyEnemiesMovementReduction_Patch
+    {
+        private static void Postfix(PlayerEnemyCollision __instance, ref float __result)
         {
-            private static void Postfix(PlayerEnemyCollision __instance, ref float __result)
+            if (!__instance.m_owner.IsLocallyOwned)
             {
-                if (!__instance.m_owner.IsLocallyOwned)
-                {
-                    return;
-                }
-                if (_disableNearByEnemyMoveSpeedMultiplier)
-                {
-                    __result = 1f;
-                }
+                return;
+            }
+            if (_disableNearByEnemyMoveSpeedMultiplier)
+            {
+                __result = 1f;
             }
         }
     }

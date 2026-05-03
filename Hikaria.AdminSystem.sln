@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.6.33801.468
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11626.88 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hikaria.AdminSystem", "Hikaria.AdminSystem\Hikaria.AdminSystem.csproj", "{D71758C1-2F74-4CD5-8C51-7BED2AABC1FA}"
 EndProject
@@ -19,6 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Localization", "Localizatio
 		Localization\Feature_FogRepellerMarker_Localization.json = Localization\Feature_FogRepellerMarker_Localization.json
 		Localization\Feature_PauseGame_Localization.json = Localization\Feature_PauseGame_Localization.json
 		Localization\Feature_SuperBioTracker_Localization.json = Localization\Feature_SuperBioTracker_Localization.json
+		Localization\Feature_TerminalAutoCompleteEnhancement_Localization.json = Localization\Feature_TerminalAutoCompleteEnhancement_Localization.json
 		Localization\Feature_WeaponAutoAim_Localization.json = Localization\Feature_WeaponAutoAim_Localization.json
 		Localization\Feature_WeaponAutoTrigger_Localization.json = Localization\Feature_WeaponAutoTrigger_Localization.json
 		Localization\Module_Hikaria.AdminSystem_Localization.json = Localization\Module_Hikaria.AdminSystem_Localization.json

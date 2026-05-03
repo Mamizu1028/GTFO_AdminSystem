@@ -1,0 +1,111 @@
+{
+  "Internal": {
+    "FeatureSettingTexts": {
+      "Hikaria.AdminSystem.Features.Accessibility.TerminalAutoCompleteEnhancement.Name": {
+        "FName": {
+          "English": "Terminal Auto Complete Enhancement",
+          "Chinese": "终端自动补全增强",
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      },
+      "Hikaria.AdminSystem.Features.Accessibility.TerminalAutoCompleteEnhancement+TerminalAutoCompleteEnhancementSettings.Targets": {
+        "FSDisplayName": {
+          "English": "Auto Complete Targets",
+          "Chinese": "补全类别",
+          "French": null,
+          "Italian": null,
+          "German": null,
+          "Spanish": null,
+          "Russian": null,
+          "Portuguese_Brazil": null,
+          "Polish": null,
+          "Japanese": null,
+          "Korean": null
+        }
+      }
+    },
+    "EnumTexts": {
+      "Hikaria.AdminSystem.Features.Accessibility.TerminalAutoCompleteEnhancement+AutoCompleteTargets": {
+        "English": {
+          "LogFile": "Log File",
+          "UplinkIP": "Uplink IP",
+          "VerifyCode": "Verify Code",
+          "Password": "Password"
+        },
+        "Chinese": {
+          "LogFile": "日志文件名",
+          "UplinkIP": "上行链路 IP",
+          "VerifyCode": "验证密钥",
+          "Password": "终端密码"
+        },
+        "French": {
+          "LogFile": null,
+          "UplinkIP": null,
+          "VerifyCode": null,
+          "Password": null
+        },
+        "Italian": {
+          "LogFile": null,
+          "UplinkIP": null,
+          "VerifyCode": null,
+          "Password": null
+        },
+        "German": {
+          "LogFile": null,
+          "UplinkIP": null,
+          "VerifyCode": null,
+          "Password": null
+        },
+        "Spanish": {
+          "LogFile": null,
+          "UplinkIP": null,
+          "VerifyCode": null,
+          "Password": null
+        },
+        "Russian": {
+          "LogFile": null,
+          "UplinkIP": null,
+          "VerifyCode": null,
+          "Password": null
+        },
+        "Portuguese_Brazil": {
+          "LogFile": null,
+          "UplinkIP": null,
+          "VerifyCode": null,
+          "Password": null
+        },
+        "Polish": {
+          "LogFile": null,
+          "UplinkIP": null,
+          "VerifyCode": null,
+          "Password": null
+        },
+        "Japanese": {
+          "LogFile": null,
+          "UplinkIP": null,
+          "VerifyCode": null,
+          "Password": null
+        },
+        "Korean": {
+          "LogFile": null,
+          "UplinkIP": null,
+          "VerifyCode": null,
+          "Password": null
+        }
+      }
+    }
+  },
+  "External": {
+    "FeatureSettingTexts": {},
+    "EnumTexts": {}
+  },
+  "GenericTexts": {}
+}

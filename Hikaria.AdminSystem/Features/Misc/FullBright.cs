@@ -27,7 +27,7 @@ public class FullBright : Feature
     public class FullBrightSettings
     {
         [FSDisplayName("启用")]
-        public bool Enabled { get => FullBright.Enabled; set => FullBright.Enabled = value; }
+        public bool Enabled { get => FullBrightEnabled; set => FullBrightEnabled = value; }
 
         [FSDisplayName("强度")]
         public float Intensity
@@ -106,7 +106,7 @@ public class FullBright : Feature
     private static EffectLight SuperLight;
 
     [Command("FullBright")]
-    private static bool Enabled
+    private static bool FullBrightEnabled
     {
         get
         {
@@ -134,7 +134,7 @@ public class FullBright : Feature
                 __instance.gameObject.AddComponent<EffectLight>();
             }
             SuperLight = __instance.gameObject.GetComponent<EffectLight>();
-            SuperLight.enabled = Enabled;
+            SuperLight.enabled = FullBrightEnabled;
             SuperLight.Range = Settings.Range;
             SuperLight.Color = Settings.Color.ToUnityColor();
             SuperLight.Intensity = Settings.Intensity;

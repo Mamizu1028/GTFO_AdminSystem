@@ -1,32 +1,40 @@
 ﻿using Hikaria.AdminSystem.Extensions;
-using Hikaria.AdminSystem.Managers;
 using Hikaria.AdminSystem.Utilities;
+using Hikaria.AdminSystem.Utility;
+using Player;
 using TheArchive.Core.Attributes.Feature;
+using TheArchive.Core.Attributes.Feature.Patches;
 using TheArchive.Core.FeaturesAPI;
 using TheArchive.Core.FeaturesAPI.Groups;
 using TheArchive.Loader;
 using UnityEngine;
 
-namespace Hikaria.AdminSystem.Features.Develop
+namespace Hikaria.AdminSystem.Features.Develop;
+
+[HideInModSettings]
+[EnableFeatureByDefault]
+[DisallowInGameToggle]
+[DoNotSaveToConfig]
+internal class Bootstrap : Feature
 {
-    [HideInModSettings]
-    [EnableFeatureByDefault]
-    [DisallowInGameToggle]
-    [DoNotSaveToConfig]
-    internal class Bootstrap : Feature
+    public override string Name => "Bootstrap";
+
+    public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Develop", true);
+
+    public override void OnGameDataInitialized()
     {
-        public override string Name => "Bootstrap";
+        LoaderWrapper.ClassInjector.RegisterTypeInIl2Cpp<UnityMainThreadDispatcher>();
+        GameObject obj = new("Hikaria.AdminSystem.ScriptsHolder");
+        obj.DoNotDestroyAndSetHideFlags();
+        obj.AddComponent<UnityMainThreadDispatcher>();
+    }
 
-        public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Develop", true);
-
-        public override void OnGameDataInitialized()
+    [ArchivePatch(typeof(LocalPlayerAgent), nameof(LocalPlayerAgent.Setup))]
+    private static class LocalPlayerAgent__Setup__Patch
+    {
+        public static void Prefix(LocalPlayerAgent __instance)
         {
-            LoaderWrapper.ClassInjector.RegisterTypeInIl2Cpp<UnityMainThreadDispatcher>();
-            GameObject obj = new("Hikaria.AdminSystem.ScriptsHolder");
-            obj.DoNotDestroyAndSetHideFlags();
-            obj.AddComponent<UnityMainThreadDispatcher>();
-
-            EnemyDataHelper.Init();
+            AdminUtils.LocalPlayerAgent = __instance;
         }
     }
 }

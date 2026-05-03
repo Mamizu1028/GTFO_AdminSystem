@@ -1,8 +1,8 @@
 ﻿using Agents;
 using Gear;
-using Hikaria.AdminSystem.Suggestion.Suggestors.Attributes;
+using Hikaria.AdminSystem.Extensions;
+using Hikaria.AdminSystem.Suggestions.Suggestors.Attributes;
 using Hikaria.AdminSystem.Utilities;
-using Hikaria.AdminSystem.Utility;
 using Hikaria.Core;
 using Hikaria.QC;
 using Player;
@@ -12,183 +12,182 @@ using TheArchive.Core.Attributes.Feature.Patches;
 using TheArchive.Core.FeaturesAPI;
 using TheArchive.Core.FeaturesAPI.Groups;
 
-namespace Hikaria.AdminSystem.Features.Player
+namespace Hikaria.AdminSystem.Features.Player;
+
+[EnableFeatureByDefault]
+[DisallowInGameToggle]
+[HideInModSettings]
+public class OneShotKill : Feature
 {
-    [EnableFeatureByDefault]
-    [DisallowInGameToggle]
-    [HideInModSettings]
-    public class OneShotKill : Feature
+    public override string Name => "秒杀";
+
+    public override string Description => "秒杀敌人";
+
+    public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Player");
+
+
+    public static Dictionary<ulong, bool> OneShotKillLookup = new();
+
+    public override void OnEnable()
     {
-        public override string Name => "秒杀";
+        SNetEventAPI.OnSessionMemberChanged += OnSessionMemberChanged;
+    }
 
-        public override string Description => "秒杀敌人";
+    public override void OnDisable()
+    {
+        SNetEventAPI.OnSessionMemberChanged -= OnSessionMemberChanged;
+    }
 
-        public override GroupBase Group => ModuleGroup.GetOrCreateSubGroup("Player");
-
-
-        public static Dictionary<ulong, bool> OneShotKillLookup = new();
-
-        public override void OnEnable()
+    [Command("OneShotKill", "一击必杀")]
+    private static void ToggleOneShotKill([PlayerAgentSuggestorTag] PlayerAgent playerAgent)
+    {
+        if (!OneShotKillLookup.TryGetValue(playerAgent.Owner.Lookup, out var enable))
         {
-            SNetEventAPI.OnSessionMemberChanged += OnSessionMemberChanged;
+            ConsoleLogs.LogToConsole("输入有误", LogLevel.Error);
+            return;
         }
+        OneShotKillLookup[playerAgent.Owner.Lookup] = !enable;
+        ConsoleLogs.LogToConsole($"已{(OneShotKillLookup[playerAgent.Owner.Lookup] ? "启用" : "禁用")} {playerAgent.GetColoredNameWithoutRichTextTags()} 秒杀敌人");
+    }
 
-        public override void OnDisable()
+    public void OnSessionMemberChanged(SNet_Player player, SessionMemberEvent playerEvent)
+    {
+        if (playerEvent == SessionMemberEvent.JoinSessionHub)
         {
-            SNetEventAPI.OnSessionMemberChanged -= OnSessionMemberChanged;
+            OneShotKillLookup.TryAdd(player.Lookup, false);
         }
-
-        [Command("OneShotKill", "一击必杀")]
-        private static void ToggleOneShotKill([PlayerSlotIndex] int slot)
+        else if (playerEvent == SessionMemberEvent.LeftSessionHub)
         {
-            if (!AdminUtils.TryGetPlayerAgentBySlotIndex(slot, out var player) || !OneShotKillLookup.TryGetValue(player.Owner.Lookup, out var enable))
+            if (player.IsLocal)
             {
-                ConsoleLogs.LogToConsole("输入有误", LogLevel.Error);
+                OneShotKillLookup.Clear();
+            }
+            else
+            {
+                OneShotKillLookup.Remove(player.Lookup);
+            }
+        }
+
+    }
+
+    // 客机时使用
+    [ArchivePatch(typeof(BulletWeapon), nameof(BulletWeapon.BulletHit))]
+    private class BulletWeapon__BulletHit__Patch
+    {
+        private static void Prefix(global::Weapon.WeaponHitData weaponRayData, ref bool doDamage)
+        {
+            if (SNet.IsMaster)
+            {
                 return;
             }
-            OneShotKillLookup[player.Owner.Lookup] = !enable;
-            ConsoleLogs.LogToConsole($"已{(OneShotKillLookup[player.Owner.Lookup] ? "启用" : "禁用")} {player.Owner.NickName} 秒杀敌人");
-        }
-
-        public void OnSessionMemberChanged(SNet_Player player, SessionMemberEvent playerEvent)
-        {
-            if (playerEvent == SessionMemberEvent.JoinSessionHub)
+            if (OneShotKillLookup.TryGetValue(weaponRayData.owner.Owner.Lookup, out var enable))
             {
-                OneShotKillLookup.TryAdd(player.Lookup, false);
-            }
-            else if (playerEvent == SessionMemberEvent.LeftSessionHub)
-            {
-                if (player.IsLocal)
+                if (enable)
                 {
-                    OneShotKillLookup.Clear();
-                }
-                else
-                {
-                    OneShotKillLookup.Remove(player.Lookup);
-                }
-            }
-
-        }
-
-        // 客机时使用
-        [ArchivePatch(typeof(BulletWeapon), nameof(BulletWeapon.BulletHit))]
-        private class BulletWeapon__BulletHit__Patch
-        {
-            private static void Prefix(global::Weapon.WeaponHitData weaponRayData, ref bool doDamage)
-            {
-                if (SNet.IsMaster)
-                {
-                    return;
-                }
-                if (OneShotKillLookup.TryGetValue(weaponRayData.owner.Owner.Lookup, out var enable))
-                {
-                    if (enable)
-                    {
-                        doDamage = true;
-                    }
+                    doDamage = true;
                 }
             }
         }
+    }
 
-        [ArchivePatch(typeof(Dam_EnemyDamageLimb), nameof(Dam_EnemyDamageLimb.MeleeDamage))]
-        private class Dam_EnemyDamageLimb__MeleeDamage__Patch
+    [ArchivePatch(typeof(Dam_EnemyDamageLimb), nameof(Dam_EnemyDamageLimb.MeleeDamage))]
+    private class Dam_EnemyDamageLimb__MeleeDamage__Patch
+    {
+        private static void Prefix(Agent sourceAgent, ref float dam)
         {
-            private static void Prefix(Agent sourceAgent, ref float dam)
+            PlayerAgent player = sourceAgent.TryCast<PlayerAgent>();
+            if (player == null)
             {
-                PlayerAgent player = sourceAgent.TryCast<PlayerAgent>();
-                if (player == null)
-                {
-                    return;
-                }
-                ulong lookup = player.Owner.Lookup;
-                if (OneShotKillLookup.TryGetValue(lookup, out var enable) && enable)
-                {
-                    dam = float.MaxValue;
-                }
+                return;
+            }
+            ulong lookup = player.Owner.Lookup;
+            if (OneShotKillLookup.TryGetValue(lookup, out var enable) && enable)
+            {
+                dam = float.MaxValue;
             }
         }
+    }
 
-        [ArchivePatch(typeof(Dam_EnemyDamageLimb), nameof(Dam_EnemyDamageLimb.BulletDamage))]
-        private class Dam_EnemyDamageLimb__BulletDamage__Patch
+    [ArchivePatch(typeof(Dam_EnemyDamageLimb), nameof(Dam_EnemyDamageLimb.BulletDamage))]
+    private class Dam_EnemyDamageLimb__BulletDamage__Patch
+    {
+        private static void Prefix(Agent sourceAgent, ref float dam)
         {
-            private static void Prefix(Agent sourceAgent, ref float dam)
+            PlayerAgent player = sourceAgent.TryCast<PlayerAgent>();
+            if (player == null)
             {
-                PlayerAgent player = sourceAgent.TryCast<PlayerAgent>();
-                if (player == null)
-                {
-                    return;
-                }
-                ulong lookup = player.Owner.Lookup;
-                if (OneShotKillLookup.TryGetValue(lookup, out var enable) && enable)
-                {
-                    dam = float.MaxValue;
-                }
+                return;
+            }
+            ulong lookup = player.Owner.Lookup;
+            if (OneShotKillLookup.TryGetValue(lookup, out var enable) && enable)
+            {
+                dam = float.MaxValue;
             }
         }
+    }
 
-        [ArchivePatch(typeof(Dam_EnemyDamageLimb), nameof(Dam_EnemyDamageLimb.ExplosionDamage))]
-        private class Dam_EnemyDamageLimb__ExplosionDamage__Patch
+    [ArchivePatch(typeof(Dam_EnemyDamageLimb), nameof(Dam_EnemyDamageLimb.ExplosionDamage))]
+    private class Dam_EnemyDamageLimb__ExplosionDamage__Patch
+    {
+        private static void Prefix(ref float dam)
         {
-            private static void Prefix(ref float dam)
+            if (SNet.IsMaster && OneShotKillLookup.TryGetValue(SNet.LocalPlayer.Lookup, out var enable) && enable)
             {
-                if (SNet.IsMaster && OneShotKillLookup.TryGetValue(SNet.LocalPlayer.Lookup, out var enable) && enable)
-                {
-                    dam = float.MaxValue;
-                }
+                dam = float.MaxValue;
             }
         }
+    }
 
-        [ArchivePatch(typeof(Dam_EnemyDamageBase), nameof(Dam_EnemyDamageBase.ReceiveMeleeDamage))]
-        private class Dam_EnemyDamageBase__ReceiveMeleeDamage__Patch
+    [ArchivePatch(typeof(Dam_EnemyDamageBase), nameof(Dam_EnemyDamageBase.ReceiveMeleeDamage))]
+    private class Dam_EnemyDamageBase__ReceiveMeleeDamage__Patch
+    {
+        private static void Prefix(Dam_EnemyDamageBase __instance, ref pFullDamageData data)
         {
-            private static void Prefix(Dam_EnemyDamageBase __instance, ref pFullDamageData data)
+            if (!data.source.TryGet(out var agent))
             {
-                if (!data.source.TryGet(out var agent))
-                {
-                    return;
-                }
-                PlayerAgent player = agent.TryCast<PlayerAgent>();
-                if (player == null)
-                {
-                    return;
-                }
-                if (OneShotKillLookup.TryGetValue(player.Owner.Lookup, out var enable) && enable)
-                {
-                    data.damage.Set(float.MaxValue, __instance.HealthMax);
-                }
+                return;
+            }
+            PlayerAgent player = agent.TryCast<PlayerAgent>();
+            if (player == null)
+            {
+                return;
+            }
+            if (OneShotKillLookup.TryGetValue(player.Owner.Lookup, out var enable) && enable)
+            {
+                data.damage.Set(float.MaxValue, __instance.HealthMax);
             }
         }
+    }
 
-        [ArchivePatch(typeof(Dam_EnemyDamageBase), nameof(Dam_EnemyDamageBase.ReceiveBulletDamage))]
-        private class Dam_EnemyDamageBase__ReceiveBulletDamage__Patch
+    [ArchivePatch(typeof(Dam_EnemyDamageBase), nameof(Dam_EnemyDamageBase.ReceiveBulletDamage))]
+    private class Dam_EnemyDamageBase__ReceiveBulletDamage__Patch
+    {
+        private static void Prefix(Dam_EnemyDamageBase __instance, ref pBulletDamageData data)
         {
-            private static void Prefix(Dam_EnemyDamageBase __instance, ref pBulletDamageData data)
+            if (!data.source.TryGet(out var agent))
             {
-                if (!data.source.TryGet(out var agent))
-                {
-                    return;
-                }
-                PlayerAgent player = agent.TryCast<PlayerAgent>();
-                if (player == null)
-                {
-                    return;
-                }
-                if (OneShotKillLookup.TryGetValue(player.Owner.Lookup, out var enable) && enable)
-                {
-                    data.damage.Set(float.MaxValue, __instance.HealthMax);
-                }
+                return;
+            }
+            PlayerAgent player = agent.TryCast<PlayerAgent>();
+            if (player == null)
+            {
+                return;
+            }
+            if (OneShotKillLookup.TryGetValue(player.Owner.Lookup, out var enable) && enable)
+            {
+                data.damage.Set(float.MaxValue, __instance.HealthMax);
             }
         }
+    }
 
-        [ArchivePatch(typeof(Dam_EnemyDamageBase), nameof(Dam_EnemyDamageBase.ReceiveExplosionDamage))]
-        private class Dam_EnemyDamageBase__ReceiveExplosionDamage__Patch
+    [ArchivePatch(typeof(Dam_EnemyDamageBase), nameof(Dam_EnemyDamageBase.ReceiveExplosionDamage))]
+    private class Dam_EnemyDamageBase__ReceiveExplosionDamage__Patch
+    {
+        private static void Prefix(Dam_EnemyDamageBase __instance, ref pExplosionDamageData data)
         {
-            private static void Prefix(Dam_EnemyDamageBase __instance, ref pExplosionDamageData data)
+            if (SNet.IsMaster && OneShotKillLookup.TryGetValue(SNet.LocalPlayer.Lookup, out var enable) && enable)
             {
-                if (SNet.IsMaster && OneShotKillLookup.TryGetValue(SNet.LocalPlayer.Lookup, out var enable) && enable)
-                {
-                    data.damage.Set(float.MaxValue, __instance.HealthMax);
-                }
+                data.damage.Set(float.MaxValue, __instance.HealthMax);
             }
         }
     }
