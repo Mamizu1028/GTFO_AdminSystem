@@ -45,8 +45,8 @@ public class Noclip : Feature
         ConsoleLogs.LogToConsole($"已{(_enableNoClip ? "启用" : "禁用")} 穿墙模式");
     }
 
-    [Command("FreeCam", "自由视角")]
-    private static void ToggleFreeCam()
+    [Command("Freecam", "自由视角")]
+    private static void ToggleFreecam()
     {
         FocusStateManager.ToggleFreeflight();
         ConsoleLogs.LogToConsole($"已{(FocusStateManager.CurrentState == eFocusState.Freeflight ? "启用" : "禁用")} 自由视角");

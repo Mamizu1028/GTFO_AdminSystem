@@ -207,9 +207,9 @@ public class ItemLookup : Feature
         {
             itemID_gearCRC = type switch
             {
-                TripMineType.Explosive => 125U,
-                TripMineType.Glue => 126U,
-                _ => 125U
+                TripMineType.Explosive => 139U,
+                TripMineType.Glue => 144U,
+                _ => 139U
             }
         };
         ItemReplicationManager.SpawnItem(data, null, ItemMode.Instance, AdminUtils.LocalPlayerAgent.FPSCamera.CameraRayPos, Quaternion.LookRotation(AdminUtils.LocalPlayerAgent.FPSCamera.CameraRayNormal * -1f, AdminUtils.LocalPlayerAgent.Forward), AdminUtils.LocalPlayerAgent.CourseNode, AdminUtils.LocalPlayerAgent);
@@ -391,8 +391,8 @@ public class ItemLookup : Feature
                     " ",
                     eFloorInventoryObjectBeaconStatus.NoBeacon.ToString()
                 });
-                bool flag5 = flag3 && text2.Contains(param1, StringComparison.InvariantCultureIgnoreCase);
-                bool flag6 = flag4 && text2.Contains(param2, StringComparison.InvariantCultureIgnoreCase);
+                bool flag5 = flag3 && text2.Contains(param1, StringComparison.OrdinalIgnoreCase);
+                bool flag6 = flag4 && text2.Contains(param2, StringComparison.OrdinalIgnoreCase);
                 bool flag7 = !flag3 && !flag4;
                 bool flag8 = (!flag3 || flag5) && (!flag4 || flag6);
                 if (flag7 || flag8)
